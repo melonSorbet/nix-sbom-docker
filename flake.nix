@@ -1,7 +1,7 @@
 {
   description = "A simple Go package";
 
-inputs.nixpkgs.url = "nixpkgs/nixos-25.11";
+  inputs.nixpkgs.url = "nixpkgs/nixos-25.11";
 
   outputs =
     { self, nixpkgs }:
@@ -25,22 +25,22 @@ inputs.nixpkgs.url = "nixpkgs/nixos-25.11";
     in
     {
 
-      packages = forAllSystems (
-        system:
-        let
-          pkgs = nixpkgsFor.${system};
-        in
-        {
-          go-hello = pkgs.buildGoModule {
-            pname = "go-hello";
-            inherit version;
-
-            src = ./.;
-
-            vendorHash = "sha256-pQpattmS9VmO3ZIQUFn66az8GSmB4IvYhTTCFn6SUmo=";
-          };
-        }
-      );
+      #      packages = forAllSystems (
+      #        system:
+      #        let
+      #          pkgs = nixpkgsFor.${system};
+      #        in
+      #        {
+      #          go-hello = pkgs.buildGoModule {
+      #            pname = "go-hello";
+      #            inherit version;
+      #
+      #            src = ./.;
+      #
+      #            vendorHash = "sha256-pQpattmS9VmO3ZIQUFn66az8GSmB4IvYhTTCFn6SUmo=";
+      #          };
+      #        }
+      #      );
 
       devShells = forAllSystems (
         system:
