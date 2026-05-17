@@ -1,17 +1,11 @@
-with import <nixpkgs> { };
+{
+  pkgs ? import <nixpkgs> { },
+}:
 
-stdenv.mkDerivation {
-  name = "vuln-test";
-
-  buildInputs = [
-    nodejs
+pkgs.buildEnv {
+  name = "image-root";
+  paths = [
+    pkgs.pkgs.bash
+    pkgs.coreutils
   ];
-
-  src = ./.;
-
-  buildPhase = ''
-    mkdir -p $out
-    npm init -y
-    npm install lodash@4.17.19
-  '';
 }
