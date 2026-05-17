@@ -1,0 +1,1380 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SPDXRef-nix-store-nymai4gn6sisdl9xjhkq764a9vsyfj70-python-app-env.drv",
+  "documentNamespace": "sbomnix://ce7a621e-9814-4142-8e65-01d09ffb232e",
+  "creationInfo": {
+    "created": "2026-05-17T10:38:25.888341+02:00",
+    "creators": [
+      "Tool: sbomnix-1.7.4"
+    ]
+  },
+  "comment": "included dependencies: 'runtime_only'",
+  "packages": [
+    {
+      "name": "bash",
+      "SPDXID": "SPDXRef-nix-store-gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv",
+      "versionInfo": "5.3p3",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.gnu.org/software/bash/",
+      "summary": "GNU Bourne-Again Shell, the de facto standard shell on Linux",
+      "licenseInfoFromFiles": [
+        "GPL-3.0-or-later"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gnu:bash:5.3p3:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/bash@5.3p3"
+        }
+      ]
+    },
+    {
+      "name": "bzip2",
+      "SPDXID": "SPDXRef-nix-store-agnfh81jpn2w5nyk9129pqzgg5xcjlwf-bzip2-1.0.8.drv",
+      "versionInfo": "1.0.8",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.sourceware.org/bzip2",
+      "summary": "High-quality data compression program",
+      "licenseInfoFromFiles": [
+        "BSD-4-Clause"
+      ],
+      "licenseConcluded": "BSD-4-Clause",
+      "licenseDeclared": "BSD-4-Clause",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:bzip2:bzip2:1.0.8:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/bzip2@1.0.8"
+        }
+      ]
+    },
+    {
+      "name": "expat",
+      "SPDXID": "SPDXRef-nix-store-zlflf51k9b1r0vx3kkyivn3y9lm5w963-expat-2.7.5.drv",
+      "versionInfo": "2.7.5",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://libexpat.github.io/",
+      "summary": "Stream-oriented XML parser library written in C",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:expat:expat:2.7.5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/expat@2.7.5"
+        }
+      ]
+    },
+    {
+      "name": "gcc",
+      "SPDXID": "SPDXRef-nix-store-kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv",
+      "versionInfo": "14.3.0",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://gcc.gnu.org/",
+      "summary": "GNU Compiler Collection, version 14.3.0",
+      "licenseInfoFromFiles": [
+        "GPL-3.0-or-later"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gcc:gcc:14.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/gcc@14.3.0"
+        }
+      ]
+    },
+    {
+      "name": "gdbm",
+      "SPDXID": "SPDXRef-nix-store-w4a8lqn4k0d7p9171c39abv71npnmmhv-gdbm-1.26.drv",
+      "versionInfo": "1.26",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.gnu.org/software/gdbm/",
+      "summary": "GNU dbm key/value database library",
+      "licenseInfoFromFiles": [
+        "GPL-3.0-or-later"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gdbm:gdbm:1.26:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/gdbm@1.26"
+        }
+      ]
+    },
+    {
+      "name": "glibc",
+      "SPDXID": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+      "versionInfo": "2.40-224",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.gnu.org/software/libc/",
+      "summary": "GNU C Library",
+      "licenseInfoFromFiles": [
+        "LGPL-2.0-or-later"
+      ],
+      "licenseConcluded": "LGPL-2.0-or-later",
+      "licenseDeclared": "LGPL-2.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:glibc:glibc:2.40-224:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/glibc@2.40-224"
+        }
+      ]
+    },
+    {
+      "name": "libffi",
+      "SPDXID": "SPDXRef-nix-store-vm069zxdl9bf8zrpgrjnzgk684ygwpfw-libffi-3.5.2.drv",
+      "versionInfo": "3.5.2",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "http://sourceware.org/libffi/",
+      "summary": "Foreign function call interface library",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:libffi_project:libffi:3.5.2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/libffi@3.5.2"
+        }
+      ]
+    },
+    {
+      "name": "libidn2",
+      "SPDXID": "SPDXRef-nix-store-a64c09hgbhz1k3knddjgc43z6hpb0gsx-libidn2-2.3.8.drv",
+      "versionInfo": "2.3.8",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.gnu.org/software/libidn/#libidn2",
+      "summary": "Free software implementation of IDNA2008 and TR46",
+      "licenseInfoFromFiles": [
+        "LGPL-3.0-or-later",
+        "GPL-2.0-or-later",
+        "GPL-3.0-or-later"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gnu:libidn2:2.3.8:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/libidn2@2.3.8"
+        }
+      ]
+    },
+    {
+      "name": "libunistring",
+      "SPDXID": "SPDXRef-nix-store-j800s5phgfn9jg7iyiys89qjcr5hxriz-libunistring-1.4.1.drv",
+      "versionInfo": "1.4.1",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.gnu.org/software/libunistring/",
+      "summary": "Unicode string library",
+      "licenseInfoFromFiles": [
+        "LGPL-3.0-or-later"
+      ],
+      "licenseConcluded": "LGPL-3.0-or-later",
+      "licenseDeclared": "LGPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:libunistring:libunistring:1.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/libunistring@1.4.1"
+        }
+      ]
+    },
+    {
+      "name": "mailcap",
+      "SPDXID": "SPDXRef-nix-store-gribg4vmbzfmddqvcnfwya0x25dpvimz-mailcap-2.1.54.drv",
+      "versionInfo": "2.1.54",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://pagure.io/mailcap",
+      "summary": "Helper application and MIME type associations for file types",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:mailcap:mailcap:2.1.54:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/mailcap@2.1.54"
+        }
+      ]
+    },
+    {
+      "name": "mpdecimal",
+      "SPDXID": "SPDXRef-nix-store-m80k45px4lm5rqxjic8bpy7m53587q7f-mpdecimal-4.0.1.drv",
+      "versionInfo": "4.0.1",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.bytereef.org/mpdecimal/index.html",
+      "summary": "Library for arbitrary precision decimal floating point arithmetic",
+      "licenseInfoFromFiles": [
+        "BSD-2-Clause"
+      ],
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "BSD-2-Clause",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:mpdecimal:mpdecimal:4.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/mpdecimal@4.0.1"
+        }
+      ]
+    },
+    {
+      "name": "ncurses",
+      "SPDXID": "SPDXRef-nix-store-x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv",
+      "versionInfo": "6.5",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.gnu.org/software/ncurses/",
+      "summary": "Free software emulation of curses in SVR4 and more",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:ncurses:ncurses:6.5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/ncurses@6.5"
+        }
+      ]
+    },
+    {
+      "name": "nss-cacert",
+      "SPDXID": "SPDXRef-nix-store-wqna2fjldsrizvqbfmgfyvb7ab6chskw-nss-cacert-3.123.drv",
+      "versionInfo": "3.123",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://firefox-source-docs.mozilla.org/security/nss/runbooks/rootstore.html#root-store-consumers",
+      "summary": "Bundle of X.509 certificates of public Certificate Authorities (CA)",
+      "licenseInfoFromFiles": [
+        "MPL-2.0"
+      ],
+      "licenseConcluded": "MPL-2.0",
+      "licenseDeclared": "MPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:nss-cacert:nss-cacert:3.123:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/nss-cacert@3.123"
+        }
+      ]
+    },
+    {
+      "name": "openssl",
+      "SPDXID": "SPDXRef-nix-store-q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv",
+      "versionInfo": "3.6.2",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.openssl.org/",
+      "summary": "Cryptographic library that implements the SSL and TLS protocols",
+      "licenseInfoFromFiles": [
+        "Apache-2.0"
+      ],
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:openssl:openssl:3.6.2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/openssl@3.6.2"
+        }
+      ]
+    },
+    {
+      "name": "python-app-env",
+      "SPDXID": "SPDXRef-nix-store-nymai4gn6sisdl9xjhkq764a9vsyfj70-python-app-env.drv",
+      "versionInfo": "",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python-app-env:python-app-env::*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/python-app-env"
+        }
+      ]
+    },
+    {
+      "name": "python-app-src",
+      "SPDXID": "SPDXRef-nix-store-niamsjj65lai3yirdlljjpfqx9n06bxb-python-app-src.drv",
+      "versionInfo": "",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python-app-src:python-app-src::*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/python-app-src"
+        }
+      ]
+    },
+    {
+      "name": "python3-3.13.12",
+      "SPDXID": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "versionInfo": "",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.python.org",
+      "summary": "High-level dynamically-typed programming language",
+      "licenseInfoFromFiles": [
+        "Python-2.0"
+      ],
+      "licenseConcluded": "Python-2.0",
+      "licenseDeclared": "Python-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python3-3.13.12:python3-3.13.12::*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/python3-3.13.12"
+        }
+      ]
+    },
+    {
+      "name": "python3-3.13.12-env",
+      "SPDXID": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "versionInfo": "",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.python.org",
+      "summary": "High-level dynamically-typed programming language",
+      "licenseInfoFromFiles": [
+        "Python-2.0"
+      ],
+      "licenseConcluded": "Python-2.0",
+      "licenseDeclared": "Python-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python3-3.13.12-env:python3-3.13.12-env::*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/python3-3.13.12-env"
+        }
+      ]
+    },
+    {
+      "name": "python3.13-blinker",
+      "SPDXID": "SPDXRef-nix-store-ps6x2yw8b0iirrpd9xgj4fkxgaawq7jn-python3.13-blinker-1.9.0.drv",
+      "versionInfo": "1.9.0",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://github.com/pallets-eco/blinker/",
+      "summary": "Fast Python in-process signal/event dispatching system",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python3.13-blinker:python3.13-blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/python3.13-blinker@1.9.0"
+        }
+      ]
+    },
+    {
+      "name": "python3.13-certifi",
+      "SPDXID": "SPDXRef-nix-store-75i7zy2v9ci2ya4j68cwv7mms8rawphx-python3.13-certifi-2025.07.14.drv",
+      "versionInfo": "2025.07.14",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://github.com/certifi/python-certifi",
+      "summary": "Python package for providing Mozilla's CA Bundle",
+      "licenseInfoFromFiles": [
+        "ISC"
+      ],
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "ISC",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python3.13-certifi:python3.13-certifi:2025.07.14:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/python3.13-certifi@2025.07.14"
+        }
+      ]
+    },
+    {
+      "name": "python3.13-charset-normalizer",
+      "SPDXID": "SPDXRef-nix-store-j2f65jx6p1x4v262807i85djhfxig7mp-python3.13-charset-normalizer-3.4.3.drv",
+      "versionInfo": "3.4.3",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://charset-normalizer.readthedocs.io/",
+      "summary": "Python module for encoding and language detection",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python3.13-charset-normalizer:python3.13-charset-normalizer:3.4.3:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/python3.13-charset-normalizer@3.4.3"
+        }
+      ]
+    },
+    {
+      "name": "python3.13-click",
+      "SPDXID": "SPDXRef-nix-store-cs48wnvvj6wx9lawrgf8m286njym1avs-python3.13-click-8.2.1.drv",
+      "versionInfo": "8.2.1",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://click.palletsprojects.com/",
+      "summary": "Create beautiful command line interfaces in Python",
+      "licenseInfoFromFiles": [
+        "BSD-3-Clause"
+      ],
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python3.13-click:python3.13-click:8.2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/python3.13-click@8.2.1"
+        }
+      ]
+    },
+    {
+      "name": "python3.13-flask",
+      "SPDXID": "SPDXRef-nix-store-hm1jxmgwkfsvj61hzzd826kq5y0n7aic-python3.13-flask-3.1.2.drv",
+      "versionInfo": "3.1.2",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://flask.palletsprojects.com/",
+      "summary": "Python micro framework for building web applications",
+      "licenseInfoFromFiles": [
+        "BSD-3-Clause"
+      ],
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python3.13-flask:python3.13-flask:3.1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/python3.13-flask@3.1.2"
+        }
+      ]
+    },
+    {
+      "name": "python3.13-idna",
+      "SPDXID": "SPDXRef-nix-store-jgks0zix859wpzvaq5mnck1rz5pqrchh-python3.13-idna-3.11.drv",
+      "versionInfo": "3.11",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://github.com/kjd/idna/",
+      "summary": "Internationalized Domain Names in Applications (IDNA)",
+      "licenseInfoFromFiles": [
+        "BSD-3-Clause"
+      ],
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python3.13-idna:python3.13-idna:3.11:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/python3.13-idna@3.11"
+        }
+      ]
+    },
+    {
+      "name": "python3.13-itsdangerous",
+      "SPDXID": "SPDXRef-nix-store-ngq6hc58bqk9k8ynmqldwblp5scmr7ic-python3.13-itsdangerous-2.2.0.drv",
+      "versionInfo": "2.2.0",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://itsdangerous.palletsprojects.com",
+      "summary": "Safely pass data to untrusted environments and back",
+      "licenseInfoFromFiles": [
+        "BSD-3-Clause"
+      ],
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python3.13-itsdangerous:python3.13-itsdangerous:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/python3.13-itsdangerous@2.2.0"
+        }
+      ]
+    },
+    {
+      "name": "python3.13-jinja2",
+      "SPDXID": "SPDXRef-nix-store-lcgg6bipbvb56vrylwmvw7xjd7is0ks4-python3.13-jinja2-3.1.6.drv",
+      "versionInfo": "3.1.6",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://jinja.palletsprojects.com",
+      "summary": "Very fast and expressive template engine",
+      "licenseInfoFromFiles": [
+        "BSD-3-Clause"
+      ],
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python3.13-jinja2:python3.13-jinja2:3.1.6:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/python3.13-jinja2@3.1.6"
+        }
+      ]
+    },
+    {
+      "name": "python3.13-markupsafe",
+      "SPDXID": "SPDXRef-nix-store-ca2kl191hxdjlfink0mx5is6z7v9dl6m-python3.13-markupsafe-3.0.3.drv",
+      "versionInfo": "3.0.3",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://palletsprojects.com/p/markupsafe/",
+      "summary": "Implements a XML/HTML/XHTML Markup safe string",
+      "licenseInfoFromFiles": [
+        "BSD-3-Clause"
+      ],
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python3.13-markupsafe:python3.13-markupsafe:3.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/python3.13-markupsafe@3.0.3"
+        }
+      ]
+    },
+    {
+      "name": "python3.13-requests",
+      "SPDXID": "SPDXRef-nix-store-yxkq15i1s38ss5qab2rgxh70g5vdjlnf-python3.13-requests-2.33.1.drv",
+      "versionInfo": "2.33.1",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "http://docs.python-requests.org/",
+      "summary": "HTTP library for Python",
+      "licenseInfoFromFiles": [
+        "Apache-2.0"
+      ],
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python3.13-requests:python3.13-requests:2.33.1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/python3.13-requests@2.33.1"
+        }
+      ]
+    },
+    {
+      "name": "python3.13-urllib3",
+      "SPDXID": "SPDXRef-nix-store-xywl90cdcrynfqg9g64hcv1hwv7p3r0v-python3.13-urllib3-2.5.0.drv",
+      "versionInfo": "2.5.0",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://github.com/urllib3/urllib3",
+      "summary": "Powerful, user-friendly HTTP client for Python",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python3.13-urllib3:python3.13-urllib3:2.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/python3.13-urllib3@2.5.0"
+        }
+      ]
+    },
+    {
+      "name": "python3.13-werkzeug",
+      "SPDXID": "SPDXRef-nix-store-svm7f14aws0d4js8d9lg3i3pa5qcvdys-python3.13-werkzeug-3.1.4.drv",
+      "versionInfo": "3.1.4",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://palletsprojects.com/p/werkzeug/",
+      "summary": "Comprehensive WSGI web application library",
+      "licenseInfoFromFiles": [
+        "BSD-3-Clause"
+      ],
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:python3.13-werkzeug:python3.13-werkzeug:3.1.4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/python3.13-werkzeug@3.1.4"
+        }
+      ]
+    },
+    {
+      "name": "readline",
+      "SPDXID": "SPDXRef-nix-store-qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv",
+      "versionInfo": "8.3p1",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://savannah.gnu.org/projects/readline/",
+      "summary": "Library for interactive line editing",
+      "licenseInfoFromFiles": [
+        "GPL-3.0-or-later"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gnu:readline:8.3p1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/readline@8.3p1"
+        }
+      ]
+    },
+    {
+      "name": "sqlite",
+      "SPDXID": "SPDXRef-nix-store-vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv",
+      "versionInfo": "3.50.4",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.sqlite.org/",
+      "summary": "Self-contained, serverless, zero-configuration, transactional SQL database engine",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:sqlite:sqlite:3.50.4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/sqlite@3.50.4"
+        }
+      ]
+    },
+    {
+      "name": "tzdata",
+      "SPDXID": "SPDXRef-nix-store-cn9283yp4imlbl93cap0g2k3lj65ijn6-tzdata-2026a.drv",
+      "versionInfo": "2026a",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "http://www.iana.org/time-zones",
+      "summary": "Database of current and historical time zones",
+      "licenseInfoFromFiles": [
+        "BSD-3-Clause"
+      ],
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:tzdata:tzdata:2026a:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/tzdata@2026a"
+        }
+      ]
+    },
+    {
+      "name": "util-linux-minimal",
+      "SPDXID": "SPDXRef-nix-store-dc1jwf230xmlayv0xf71s1qdi47j306j-util-linux-minimal-2.41.4.drv",
+      "versionInfo": "2.41.4",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.kernel.org/pub/linux/utils/util-linux/",
+      "summary": "Set of system utilities for Linux",
+      "licenseInfoFromFiles": [
+        "GPL-2.0-only",
+        "GPL-2.0-or-later",
+        "GPL-3.0-or-later",
+        "LGPL-2.1-or-later",
+        "BSD-3-Clause",
+        "BSD-4-Clause-UC"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:util-linux-minimal:util-linux-minimal:2.41.4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/util-linux-minimal@2.41.4"
+        }
+      ]
+    },
+    {
+      "name": "xgcc",
+      "SPDXID": "SPDXRef-nix-store-k3yfb24asq152abydbqg56mdzq9q4bqy-xgcc-14.3.0.drv",
+      "versionInfo": "14.3.0",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:xgcc:xgcc:14.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/xgcc@14.3.0"
+        }
+      ]
+    },
+    {
+      "name": "xz",
+      "SPDXID": "SPDXRef-nix-store-x7lvv35rrhnycg6bkgc7vhdkiac4v1qf-xz-5.8.3.drv",
+      "versionInfo": "5.8.3",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://tukaani.org/xz/",
+      "summary": "General-purpose data compression software, successor of LZMA",
+      "licenseInfoFromFiles": [
+        "GPL-2.0-or-later",
+        "LGPL-2.1-or-later"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:xz:xz:5.8.3:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/xz@5.8.3"
+        }
+      ]
+    },
+    {
+      "name": "zlib",
+      "SPDXID": "SPDXRef-nix-store-h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv",
+      "versionInfo": "1.3.2",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://zlib.net",
+      "summary": "Lossless data-compression library",
+      "licenseInfoFromFiles": [
+        "Zlib"
+      ],
+      "licenseConcluded": "Zlib",
+      "licenseDeclared": "Zlib",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:zlib:zlib:1.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/zlib@1.3.2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-nix-store-gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-agnfh81jpn2w5nyk9129pqzgg5xcjlwf-bzip2-1.0.8.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-zlflf51k9b1r0vx3kkyivn3y9lm5w963-expat-2.7.5.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-w4a8lqn4k0d7p9171c39abv71npnmmhv-gdbm-1.26.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-a64c09hgbhz1k3knddjgc43z6hpb0gsx-libidn2-2.3.8.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-k3yfb24asq152abydbqg56mdzq9q4bqy-xgcc-14.3.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-vm069zxdl9bf8zrpgrjnzgk684ygwpfw-libffi-3.5.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-a64c09hgbhz1k3knddjgc43z6hpb0gsx-libidn2-2.3.8.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-j800s5phgfn9jg7iyiys89qjcr5hxriz-libunistring-1.4.1.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-m80k45px4lm5rqxjic8bpy7m53587q7f-mpdecimal-4.0.1.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-nymai4gn6sisdl9xjhkq764a9vsyfj70-python-app-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-nymai4gn6sisdl9xjhkq764a9vsyfj70-python-app-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-niamsjj65lai3yirdlljjpfqx9n06bxb-python-app-src.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-agnfh81jpn2w5nyk9129pqzgg5xcjlwf-bzip2-1.0.8.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-cn9283yp4imlbl93cap0g2k3lj65ijn6-tzdata-2026a.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-dc1jwf230xmlayv0xf71s1qdi47j306j-util-linux-minimal-2.41.4.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-gribg4vmbzfmddqvcnfwya0x25dpvimz-mailcap-2.1.54.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-m80k45px4lm5rqxjic8bpy7m53587q7f-mpdecimal-4.0.1.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-vm069zxdl9bf8zrpgrjnzgk684ygwpfw-libffi-3.5.2.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-w4a8lqn4k0d7p9171c39abv71npnmmhv-gdbm-1.26.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-x7lvv35rrhnycg6bkgc7vhdkiac4v1qf-xz-5.8.3.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-zlflf51k9b1r0vx3kkyivn3y9lm5w963-expat-2.7.5.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-75i7zy2v9ci2ya4j68cwv7mms8rawphx-python3.13-certifi-2025.07.14.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-ca2kl191hxdjlfink0mx5is6z7v9dl6m-python3.13-markupsafe-3.0.3.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-cs48wnvvj6wx9lawrgf8m286njym1avs-python3.13-click-8.2.1.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-hm1jxmgwkfsvj61hzzd826kq5y0n7aic-python3.13-flask-3.1.2.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-j2f65jx6p1x4v262807i85djhfxig7mp-python3.13-charset-normalizer-3.4.3.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-jgks0zix859wpzvaq5mnck1rz5pqrchh-python3.13-idna-3.11.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-lcgg6bipbvb56vrylwmvw7xjd7is0ks4-python3.13-jinja2-3.1.6.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-ngq6hc58bqk9k8ynmqldwblp5scmr7ic-python3.13-itsdangerous-2.2.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-ps6x2yw8b0iirrpd9xgj4fkxgaawq7jn-python3.13-blinker-1.9.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-svm7f14aws0d4js8d9lg3i3pa5qcvdys-python3.13-werkzeug-3.1.4.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-xywl90cdcrynfqg9g64hcv1hwv7p3r0v-python3.13-urllib3-2.5.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-yxkq15i1s38ss5qab2rgxh70g5vdjlnf-python3.13-requests-2.33.1.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-ps6x2yw8b0iirrpd9xgj4fkxgaawq7jn-python3.13-blinker-1.9.0.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-75i7zy2v9ci2ya4j68cwv7mms8rawphx-python3.13-certifi-2025.07.14.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-75i7zy2v9ci2ya4j68cwv7mms8rawphx-python3.13-certifi-2025.07.14.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-wqna2fjldsrizvqbfmgfyvb7ab6chskw-nss-cacert-3.123.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-j2f65jx6p1x4v262807i85djhfxig7mp-python3.13-charset-normalizer-3.4.3.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-j2f65jx6p1x4v262807i85djhfxig7mp-python3.13-charset-normalizer-3.4.3.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-j2f65jx6p1x4v262807i85djhfxig7mp-python3.13-charset-normalizer-3.4.3.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-cs48wnvvj6wx9lawrgf8m286njym1avs-python3.13-click-8.2.1.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-hm1jxmgwkfsvj61hzzd826kq5y0n7aic-python3.13-flask-3.1.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-hm1jxmgwkfsvj61hzzd826kq5y0n7aic-python3.13-flask-3.1.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-ca2kl191hxdjlfink0mx5is6z7v9dl6m-python3.13-markupsafe-3.0.3.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-hm1jxmgwkfsvj61hzzd826kq5y0n7aic-python3.13-flask-3.1.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-cs48wnvvj6wx9lawrgf8m286njym1avs-python3.13-click-8.2.1.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-hm1jxmgwkfsvj61hzzd826kq5y0n7aic-python3.13-flask-3.1.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-hm1jxmgwkfsvj61hzzd826kq5y0n7aic-python3.13-flask-3.1.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-lcgg6bipbvb56vrylwmvw7xjd7is0ks4-python3.13-jinja2-3.1.6.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-hm1jxmgwkfsvj61hzzd826kq5y0n7aic-python3.13-flask-3.1.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-ngq6hc58bqk9k8ynmqldwblp5scmr7ic-python3.13-itsdangerous-2.2.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-hm1jxmgwkfsvj61hzzd826kq5y0n7aic-python3.13-flask-3.1.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-ps6x2yw8b0iirrpd9xgj4fkxgaawq7jn-python3.13-blinker-1.9.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-hm1jxmgwkfsvj61hzzd826kq5y0n7aic-python3.13-flask-3.1.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-svm7f14aws0d4js8d9lg3i3pa5qcvdys-python3.13-werkzeug-3.1.4.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-jgks0zix859wpzvaq5mnck1rz5pqrchh-python3.13-idna-3.11.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-ngq6hc58bqk9k8ynmqldwblp5scmr7ic-python3.13-itsdangerous-2.2.0.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-lcgg6bipbvb56vrylwmvw7xjd7is0ks4-python3.13-jinja2-3.1.6.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-lcgg6bipbvb56vrylwmvw7xjd7is0ks4-python3.13-jinja2-3.1.6.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-ca2kl191hxdjlfink0mx5is6z7v9dl6m-python3.13-markupsafe-3.0.3.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-ca2kl191hxdjlfink0mx5is6z7v9dl6m-python3.13-markupsafe-3.0.3.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-ca2kl191hxdjlfink0mx5is6z7v9dl6m-python3.13-markupsafe-3.0.3.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-yxkq15i1s38ss5qab2rgxh70g5vdjlnf-python3.13-requests-2.33.1.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-yxkq15i1s38ss5qab2rgxh70g5vdjlnf-python3.13-requests-2.33.1.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-75i7zy2v9ci2ya4j68cwv7mms8rawphx-python3.13-certifi-2025.07.14.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-yxkq15i1s38ss5qab2rgxh70g5vdjlnf-python3.13-requests-2.33.1.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-j2f65jx6p1x4v262807i85djhfxig7mp-python3.13-charset-normalizer-3.4.3.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-yxkq15i1s38ss5qab2rgxh70g5vdjlnf-python3.13-requests-2.33.1.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-jgks0zix859wpzvaq5mnck1rz5pqrchh-python3.13-idna-3.11.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-yxkq15i1s38ss5qab2rgxh70g5vdjlnf-python3.13-requests-2.33.1.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-xywl90cdcrynfqg9g64hcv1hwv7p3r0v-python3.13-urllib3-2.5.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-xywl90cdcrynfqg9g64hcv1hwv7p3r0v-python3.13-urllib3-2.5.0.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-svm7f14aws0d4js8d9lg3i3pa5qcvdys-python3.13-werkzeug-3.1.4.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-svm7f14aws0d4js8d9lg3i3pa5qcvdys-python3.13-werkzeug-3.1.4.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-ca2kl191hxdjlfink0mx5is6z7v9dl6m-python3.13-markupsafe-3.0.3.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-dc1jwf230xmlayv0xf71s1qdi47j306j-util-linux-minimal-2.41.4.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-x7lvv35rrhnycg6bkgc7vhdkiac4v1qf-xz-5.8.3.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    }
+  ]
+}
