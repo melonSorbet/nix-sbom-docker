@@ -1,0 +1,6 @@
+# Nix build outputs
+result
+result-*
+
+# sbomnix cache
+http_cache.sqlite
