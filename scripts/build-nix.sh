@@ -25,6 +25,10 @@ sbomnix ".#$APP-env" --buildtime \
   --cdx="$OUT/sbomnix-buildtime.cdx.json" \
   --spdx="$OUT/sbomnix-buildtime.spdx.json"
 
+echo "==> bombon (second derivational CycloneDX from .#$APP-env)"
+nix build ".#$APP-bom" -o "./result-$APP-bom"
+install -m 644 "./result-$APP-bom" "$OUT/bombon.cdx.json"
+
 echo "==> Loading image into docker as $IMAGE_NAME"
 docker load < "./result-$APP-image"
 
@@ -34,6 +38,9 @@ syft "$IMAGE_NAME" -o spdx-json="$OUT/syft.spdx.json" -o cyclonedx-json="$OUT/sy
 echo "==> Trivy on $IMAGE_NAME"
 trivy image --quiet --format spdx-json --output "$OUT/trivy.spdx.json" "$IMAGE_NAME"
 trivy image --quiet --format cyclonedx --output "$OUT/trivy.cdx.json" "$IMAGE_NAME"
+
+echo "==> cdxgen on $IMAGE_NAME"
+cdxgen -t docker -o "$OUT/cdxgen.cdx.json" "$IMAGE_NAME"
 
 echo
 echo "Done. SBOMs in $OUT"

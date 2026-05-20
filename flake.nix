@@ -3,8 +3,13 @@
 
   inputs.nixpkgs.url = "nixpkgs/nixos-25.11";
 
+  # bombon: a second, independent derivational SBOM tool (CycloneDX from
+  # the Nix graph) — cross-checks sbomnix's ground truth.
+  inputs.bombon.url = "github:nikstur/bombon";
+  inputs.bombon.inputs.nixpkgs.follows = "nixpkgs";
+
   outputs =
-    { self, nixpkgs }:
+    { self, nixpkgs, bombon }:
     let
       supportedSystems = [
         "x86_64-linux"
@@ -55,7 +60,8 @@
             '';
           };
         in
-        {
+        # rec: the *-bom attrs below reference the *-env attrs by name.
+        rec {
           ## im gonna move these to seperate files later on.
           # whose Dockerfile baseline lives under images/projects-to-build/python-app.
           python-app-image = pkgs.dockerTools.buildLayeredImage {
@@ -112,6 +118,12 @@
               nodeApp
             ];
           };
+
+          # Second derivational SBOM (CycloneDX), built by bombon from the
+          # exact same env derivations sbomnix scans — an independent
+          # cross-check of the ground-truth closure.
+          python-app-bom = bombon.lib.${system}.buildBom python-app-env { };
+          node-app-bom = bombon.lib.${system}.buildBom node-app-env { };
         }
       );
 
@@ -130,6 +142,7 @@
               syft
               trivy
               grype
+              cdxgen
               # Image plumbing
               skopeo
               jq

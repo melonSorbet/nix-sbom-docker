@@ -20,5 +20,8 @@ echo "==> Trivy on $IMAGE_NAME"
 trivy image --quiet --format spdx-json --output "$OUT/trivy.spdx.json" "$IMAGE_NAME"
 trivy image --quiet --format cyclonedx --output "$OUT/trivy.cdx.json" "$IMAGE_NAME"
 
+echo "==> cdxgen on $IMAGE_NAME"
+cdxgen -t docker -o "$OUT/cdxgen.cdx.json" "$IMAGE_NAME"
+
 echo
 echo "Done. SBOMs in $OUT"
