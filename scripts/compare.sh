@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-# Quick component-count comparison across the SBOMs in sbom-nix/<app> and
-# sbom-default/<app>. Counts components in each CycloneDX json.
 
 set -euo pipefail
 

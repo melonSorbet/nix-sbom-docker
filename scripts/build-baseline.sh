@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-# Build the Dockerfile-based python-app baseline image, then run Syft + Trivy
-# on it. Outputs land in sbom-default/python-app/.
 
 set -euo pipefail
 

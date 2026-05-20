@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-# Build the Nix-based python-app image, generate sbomnix SBOMs from the derivation,
-# then load the image into docker and run Syft + Trivy on it for comparison.
-# Outputs land in sbom-nix/python-app/.
 
 set -euo pipefail
 

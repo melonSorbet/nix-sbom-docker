@@ -4,6 +4,6 @@
 - [x] script for evaluation between sbomnix and trivy (manual vs nix)
 - [ ] Attach PBOM (Work in Progress)
 - [ ] PBOM emitter (which pbom format?)
-- [ ] Verifier
+- [x] Verifier
 - [ ] `buildImageWithProvenance` library function
 - [ ] Evaluation 

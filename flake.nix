@@ -85,6 +85,8 @@
               # Image plumbing
               skopeo
               jq
+              # Attach tool runtime
+              (python3.withPackages (ps: with ps; [ click rich ]))
             ];
           };
         }

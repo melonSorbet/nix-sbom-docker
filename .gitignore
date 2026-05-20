@@ -4,3 +4,7 @@ result-*
 
 # sbomnix cache
 http_cache.sqlite
+
+# Python
+__pycache__/
+*.pyc

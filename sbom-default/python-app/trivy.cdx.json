@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:7baed569-0bda-4a4f-af93-4ba6cf8614f7",
+  "serialNumber": "urn:uuid:e7f48956-ee55-4cdf-8afa-81f91bbe2abf",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-05-17T08:37:32+00:00",
+    "timestamp": "2026-05-19T22:12:00+00:00",
     "tools": {
       "components": [
         {
@@ -20,10 +20,10 @@
       ]
     },
     "component": {
-      "bom-ref": "pkg:oci/python-app-default@sha256%3A6e865a5d40f35fd61cd2fbd10f1e086ea2c684e2536351e372bd9cae486daa4b?arch=amd64&repository_url=index.docker.io%2Flibrary%2Fpython-app-default",
+      "bom-ref": "pkg:oci/python-app-default@sha256%3A7b04d2deb8837d5b59b854af15de8717fd82d70e89c92ab1769dc7f21cf3e86b?arch=amd64&repository_url=index.docker.io%2Flibrary%2Fpython-app-default",
       "type": "container",
       "name": "python-app-default:latest",
-      "purl": "pkg:oci/python-app-default@sha256%3A6e865a5d40f35fd61cd2fbd10f1e086ea2c684e2536351e372bd9cae486daa4b?arch=amd64&repository_url=index.docker.io%2Flibrary%2Fpython-app-default",
+      "purl": "pkg:oci/python-app-default@sha256%3A7b04d2deb8837d5b59b854af15de8717fd82d70e89c92ab1769dc7f21cf3e86b?arch=amd64&repository_url=index.docker.io%2Flibrary%2Fpython-app-default",
       "properties": [
         {
           "name": "aquasecurity:trivy:DiffID",
@@ -59,11 +59,11 @@
         },
         {
           "name": "aquasecurity:trivy:ImageID",
-          "value": "sha256:6e865a5d40f35fd61cd2fbd10f1e086ea2c684e2536351e372bd9cae486daa4b"
+          "value": "sha256:7b04d2deb8837d5b59b854af15de8717fd82d70e89c92ab1769dc7f21cf3e86b"
         },
         {
           "name": "aquasecurity:trivy:RepoDigest",
-          "value": "python-app-default@sha256:6e865a5d40f35fd61cd2fbd10f1e086ea2c684e2536351e372bd9cae486daa4b"
+          "value": "python-app-default@sha256:7b04d2deb8837d5b59b854af15de8717fd82d70e89c92ab1769dc7f21cf3e86b"
         },
         {
           "name": "aquasecurity:trivy:RepoTag",
@@ -82,7 +82,7 @@
   },
   "components": [
     {
-      "bom-ref": "63ab567d-c08f-4bc7-86a9-2b581e2ea09d",
+      "bom-ref": "b6bdebce-5557-4b32-b933-11f5b18dec6f",
       "type": "operating-system",
       "name": "debian",
       "version": "12.13",
@@ -8285,7 +8285,7 @@
   ],
   "dependencies": [
     {
-      "ref": "63ab567d-c08f-4bc7-86a9-2b581e2ea09d",
+      "ref": "b6bdebce-5557-4b32-b933-11f5b18dec6f",
       "dependsOn": [
         "pkg:deb/debian/apt@2.6.1?arch=amd64&distro=debian-12.13",
         "pkg:deb/debian/base-passwd@3.6.1?arch=amd64&distro=debian-12.13",
@@ -9007,9 +9007,9 @@
       ]
     },
     {
-      "ref": "pkg:oci/python-app-default@sha256%3A6e865a5d40f35fd61cd2fbd10f1e086ea2c684e2536351e372bd9cae486daa4b?arch=amd64&repository_url=index.docker.io%2Flibrary%2Fpython-app-default",
+      "ref": "pkg:oci/python-app-default@sha256%3A7b04d2deb8837d5b59b854af15de8717fd82d70e89c92ab1769dc7f21cf3e86b?arch=amd64&repository_url=index.docker.io%2Flibrary%2Fpython-app-default",
       "dependsOn": [
-        "63ab567d-c08f-4bc7-86a9-2b581e2ea09d",
+        "b6bdebce-5557-4b32-b933-11f5b18dec6f",
         "pkg:pypi/blinker@1.9.0",
         "pkg:pypi/certifi@2026.4.22",
         "pkg:pypi/charset-normalizer@3.4.7",

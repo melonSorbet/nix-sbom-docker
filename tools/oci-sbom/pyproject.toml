@@ -1,0 +1,19 @@
+[project]
+name = "oci-sbom"
+version = "0.1.0"
+description = "Attach SBOMs to OCI images via manifest annotations + content-addressed blobs"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1",
+    "rich>=13.0",
+]
+
+[project.scripts]
+oci-sbom = "oci_sbom:cli"
+
+[tool.setuptools]
+py-modules = ["oci_sbom"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
