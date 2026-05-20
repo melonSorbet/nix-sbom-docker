@@ -3,9 +3,10 @@
 set -euo pipefail
 
 ROOT="$(git rev-parse --show-toplevel)"
-APP_DIR="$ROOT/images/projects-to-build/python-app"
-OUT="$ROOT/sbom-default/python-app"
-IMAGE_NAME="python-app-default:latest"
+APP="${1:-python-app}"
+APP_DIR="$ROOT/images/projects-to-build/$APP"
+OUT="$ROOT/sbom-default/$APP"
+IMAGE_NAME="$APP-default:latest"
 
 mkdir -p "$OUT"
 

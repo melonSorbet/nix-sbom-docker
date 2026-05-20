@@ -1,0 +1,750 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SPDXRef-nix-store-21r62m50gzl66rfkm988g04s090aslly-node-app-env.drv",
+  "documentNamespace": "sbomnix://4f440bb4-4607-4210-90dd-accb21c28d04",
+  "creationInfo": {
+    "created": "2026-05-20T12:32:22.845616+02:00",
+    "creators": [
+      "Tool: sbomnix-1.7.4"
+    ]
+  },
+  "comment": "included dependencies: 'runtime_only'",
+  "packages": [
+    {
+      "name": "acl",
+      "SPDXID": "SPDXRef-nix-store-4qm0x8h1mvwgh54lxb5hvyf8w14f6f4h-acl-2.3.2.drv",
+      "versionInfo": "2.3.2",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://savannah.nongnu.org/projects/acl",
+      "summary": "Library and tools for manipulating access control lists",
+      "licenseInfoFromFiles": [
+        "GPL-2.0-or-later"
+      ],
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:xfs:acl:2.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/acl@2.3.2"
+        }
+      ]
+    },
+    {
+      "name": "attr",
+      "SPDXID": "SPDXRef-nix-store-i3jnr0fi1fi5kif6pvqd348gbmgldkqn-attr-2.5.2.drv",
+      "versionInfo": "2.5.2",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://savannah.nongnu.org/projects/attr/",
+      "summary": "Library and tools for manipulating extended attributes",
+      "licenseInfoFromFiles": [
+        "GPL-2.0-or-later"
+      ],
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:attr:attr:2.5.2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/attr@2.5.2"
+        }
+      ]
+    },
+    {
+      "name": "bash",
+      "SPDXID": "SPDXRef-nix-store-gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv",
+      "versionInfo": "5.3p3",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.gnu.org/software/bash/",
+      "summary": "GNU Bourne-Again Shell, the de facto standard shell on Linux",
+      "licenseInfoFromFiles": [
+        "GPL-3.0-or-later"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gnu:bash:5.3p3:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/bash@5.3p3"
+        }
+      ]
+    },
+    {
+      "name": "bash-interactive",
+      "SPDXID": "SPDXRef-nix-store-vqy8ay1rzvybx4hkhby1bc0559jixpp4-bash-interactive-5.3p3.drv",
+      "versionInfo": "5.3p3",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.gnu.org/software/bash/",
+      "summary": "GNU Bourne-Again Shell, the de facto standard shell on Linux (for interactive use)",
+      "licenseInfoFromFiles": [
+        "GPL-3.0-or-later"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:bash-interactive:bash-interactive:5.3p3:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/bash-interactive@5.3p3"
+        }
+      ]
+    },
+    {
+      "name": "coreutils",
+      "SPDXID": "SPDXRef-nix-store-n80wl1635liw3v57aivw6xsjmw5x1s71-coreutils-9.8.drv",
+      "versionInfo": "9.8",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.gnu.org/software/coreutils/",
+      "summary": "GNU Core Utilities",
+      "licenseInfoFromFiles": [
+        "GPL-3.0-or-later"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:coreutils:coreutils:9.8:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/coreutils@9.8"
+        }
+      ]
+    },
+    {
+      "name": "gcc",
+      "SPDXID": "SPDXRef-nix-store-kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv",
+      "versionInfo": "14.3.0",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://gcc.gnu.org/",
+      "summary": "GNU Compiler Collection, version 14.3.0",
+      "licenseInfoFromFiles": [
+        "GPL-3.0-or-later"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gcc:gcc:14.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/gcc@14.3.0"
+        }
+      ]
+    },
+    {
+      "name": "glibc",
+      "SPDXID": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+      "versionInfo": "2.40-224",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.gnu.org/software/libc/",
+      "summary": "GNU C Library",
+      "licenseInfoFromFiles": [
+        "LGPL-2.0-or-later"
+      ],
+      "licenseConcluded": "LGPL-2.0-or-later",
+      "licenseDeclared": "LGPL-2.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:glibc:glibc:2.40-224:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/glibc@2.40-224"
+        }
+      ]
+    },
+    {
+      "name": "gmp-with-cxx",
+      "SPDXID": "SPDXRef-nix-store-mjr18cqnfzz97vi7nd3m0yrq57l8652n-gmp-with-cxx-6.3.0.drv",
+      "versionInfo": "6.3.0",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://gmplib.org/",
+      "summary": "GNU multiple precision arithmetic library",
+      "licenseInfoFromFiles": [
+        "LGPL-3.0-only",
+        "GPL-2.0-only"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gmp-with-cxx:gmp-with-cxx:6.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/gmp-with-cxx@6.3.0"
+        }
+      ]
+    },
+    {
+      "name": "icu4c",
+      "SPDXID": "SPDXRef-nix-store-gvxm2j6wcfhhkcn75kakdm8amrj4bsbc-icu4c-76.1.drv",
+      "versionInfo": "76.1",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://icu.unicode.org/",
+      "summary": "Unicode and globalization support library",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:icu4c:icu4c:76.1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/icu4c@76.1"
+        }
+      ]
+    },
+    {
+      "name": "libidn2",
+      "SPDXID": "SPDXRef-nix-store-a64c09hgbhz1k3knddjgc43z6hpb0gsx-libidn2-2.3.8.drv",
+      "versionInfo": "2.3.8",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.gnu.org/software/libidn/#libidn2",
+      "summary": "Free software implementation of IDNA2008 and TR46",
+      "licenseInfoFromFiles": [
+        "LGPL-3.0-or-later",
+        "GPL-2.0-or-later",
+        "GPL-3.0-or-later"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gnu:libidn2:2.3.8:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/libidn2@2.3.8"
+        }
+      ]
+    },
+    {
+      "name": "libunistring",
+      "SPDXID": "SPDXRef-nix-store-j800s5phgfn9jg7iyiys89qjcr5hxriz-libunistring-1.4.1.drv",
+      "versionInfo": "1.4.1",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.gnu.org/software/libunistring/",
+      "summary": "Unicode string library",
+      "licenseInfoFromFiles": [
+        "LGPL-3.0-or-later"
+      ],
+      "licenseConcluded": "LGPL-3.0-or-later",
+      "licenseDeclared": "LGPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:libunistring:libunistring:1.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/libunistring@1.4.1"
+        }
+      ]
+    },
+    {
+      "name": "libuv",
+      "SPDXID": "SPDXRef-nix-store-i7snpgr9wa7x8s8zwzjva1nwnpqmyz0g-libuv-1.51.0.drv",
+      "versionInfo": "1.51.0",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://libuv.org/",
+      "summary": "Multi-platform support library with a focus on asynchronous I/O",
+      "licenseInfoFromFiles": [
+        "MIT",
+        "ISC",
+        "BSD-2-Clause",
+        "BSD-3-Clause",
+        "CC-BY-4.0"
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:libuv:libuv:1.51.0:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/libuv@1.51.0"
+        }
+      ]
+    },
+    {
+      "name": "ncurses",
+      "SPDXID": "SPDXRef-nix-store-x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv",
+      "versionInfo": "6.5",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.gnu.org/software/ncurses/",
+      "summary": "Free software emulation of curses in SVR4 and more",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:ncurses:ncurses:6.5:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/ncurses@6.5"
+        }
+      ]
+    },
+    {
+      "name": "node-app",
+      "SPDXID": "SPDXRef-nix-store-b9r82x24sc758rs29p79kh1khj6kmcdg-node-app-1.0.0.drv",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:node-app:node-app:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/node-app@1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "node-app-env",
+      "SPDXID": "SPDXRef-nix-store-21r62m50gzl66rfkm988g04s090aslly-node-app-env.drv",
+      "versionInfo": "",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:node-app-env:node-app-env::*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/node-app-env"
+        }
+      ]
+    },
+    {
+      "name": "nodejs",
+      "SPDXID": "SPDXRef-nix-store-ybb1lkslbynz4x7yb2a888gl15bir60h-nodejs-22.22.2.drv",
+      "versionInfo": "22.22.2",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://nodejs.org",
+      "summary": "Event-driven I/O framework for the V8 JavaScript engine",
+      "licenseInfoFromFiles": [
+        "MIT"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:nodejs:nodejs:22.22.2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/nodejs@22.22.2"
+        }
+      ]
+    },
+    {
+      "name": "openssl",
+      "SPDXID": "SPDXRef-nix-store-q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv",
+      "versionInfo": "3.6.2",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.openssl.org/",
+      "summary": "Cryptographic library that implements the SSL and TLS protocols",
+      "licenseInfoFromFiles": [
+        "Apache-2.0"
+      ],
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:openssl:openssl:3.6.2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/openssl@3.6.2"
+        }
+      ]
+    },
+    {
+      "name": "readline",
+      "SPDXID": "SPDXRef-nix-store-qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv",
+      "versionInfo": "8.3p1",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://savannah.gnu.org/projects/readline/",
+      "summary": "Library for interactive line editing",
+      "licenseInfoFromFiles": [
+        "GPL-3.0-or-later"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gnu:readline:8.3p1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/readline@8.3p1"
+        }
+      ]
+    },
+    {
+      "name": "sqlite",
+      "SPDXID": "SPDXRef-nix-store-vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv",
+      "versionInfo": "3.50.4",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://www.sqlite.org/",
+      "summary": "Self-contained, serverless, zero-configuration, transactional SQL database engine",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:sqlite:sqlite:3.50.4:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/sqlite@3.50.4"
+        }
+      ]
+    },
+    {
+      "name": "xgcc",
+      "SPDXID": "SPDXRef-nix-store-k3yfb24asq152abydbqg56mdzq9q4bqy-xgcc-14.3.0.drv",
+      "versionInfo": "14.3.0",
+      "downloadLocation": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:xgcc:xgcc:14.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/xgcc@14.3.0"
+        }
+      ]
+    },
+    {
+      "name": "zlib",
+      "SPDXID": "SPDXRef-nix-store-h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv",
+      "versionInfo": "1.3.2",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://zlib.net",
+      "summary": "Lossless data-compression library",
+      "licenseInfoFromFiles": [
+        "Zlib"
+      ],
+      "licenseConcluded": "Zlib",
+      "licenseDeclared": "Zlib",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:zlib:zlib:1.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nix/zlib@1.3.2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-nix-store-4qm0x8h1mvwgh54lxb5hvyf8w14f6f4h-acl-2.3.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-4qm0x8h1mvwgh54lxb5hvyf8w14f6f4h-acl-2.3.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-i3jnr0fi1fi5kif6pvqd348gbmgldkqn-attr-2.5.2.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-i3jnr0fi1fi5kif6pvqd348gbmgldkqn-attr-2.5.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-vqy8ay1rzvybx4hkhby1bc0559jixpp4-bash-interactive-5.3p3.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-vqy8ay1rzvybx4hkhby1bc0559jixpp4-bash-interactive-5.3p3.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-vqy8ay1rzvybx4hkhby1bc0559jixpp4-bash-interactive-5.3p3.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-n80wl1635liw3v57aivw6xsjmw5x1s71-coreutils-9.8.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-4qm0x8h1mvwgh54lxb5hvyf8w14f6f4h-acl-2.3.2.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-n80wl1635liw3v57aivw6xsjmw5x1s71-coreutils-9.8.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-n80wl1635liw3v57aivw6xsjmw5x1s71-coreutils-9.8.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-i3jnr0fi1fi5kif6pvqd348gbmgldkqn-attr-2.5.2.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-n80wl1635liw3v57aivw6xsjmw5x1s71-coreutils-9.8.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-mjr18cqnfzz97vi7nd3m0yrq57l8652n-gmp-with-cxx-6.3.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-a64c09hgbhz1k3knddjgc43z6hpb0gsx-libidn2-2.3.8.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-k3yfb24asq152abydbqg56mdzq9q4bqy-xgcc-14.3.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-mjr18cqnfzz97vi7nd3m0yrq57l8652n-gmp-with-cxx-6.3.0.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-mjr18cqnfzz97vi7nd3m0yrq57l8652n-gmp-with-cxx-6.3.0.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gvxm2j6wcfhhkcn75kakdm8amrj4bsbc-icu4c-76.1.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gvxm2j6wcfhhkcn75kakdm8amrj4bsbc-icu4c-76.1.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gvxm2j6wcfhhkcn75kakdm8amrj4bsbc-icu4c-76.1.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-gvxm2j6wcfhhkcn75kakdm8amrj4bsbc-icu4c-76.1.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-n80wl1635liw3v57aivw6xsjmw5x1s71-coreutils-9.8.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-a64c09hgbhz1k3knddjgc43z6hpb0gsx-libidn2-2.3.8.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-j800s5phgfn9jg7iyiys89qjcr5hxriz-libunistring-1.4.1.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-i7snpgr9wa7x8s8zwzjva1nwnpqmyz0g-libuv-1.51.0.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-b9r82x24sc758rs29p79kh1khj6kmcdg-node-app-1.0.0.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-ybb1lkslbynz4x7yb2a888gl15bir60h-nodejs-22.22.2.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-21r62m50gzl66rfkm988g04s090aslly-node-app-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-b9r82x24sc758rs29p79kh1khj6kmcdg-node-app-1.0.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-21r62m50gzl66rfkm988g04s090aslly-node-app-env.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-ybb1lkslbynz4x7yb2a888gl15bir60h-nodejs-22.22.2.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-ybb1lkslbynz4x7yb2a888gl15bir60h-nodejs-22.22.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-ybb1lkslbynz4x7yb2a888gl15bir60h-nodejs-22.22.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-gvxm2j6wcfhhkcn75kakdm8amrj4bsbc-icu4c-76.1.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-ybb1lkslbynz4x7yb2a888gl15bir60h-nodejs-22.22.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-ybb1lkslbynz4x7yb2a888gl15bir60h-nodejs-22.22.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-i7snpgr9wa7x8s8zwzjva1nwnpqmyz0g-libuv-1.51.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-ybb1lkslbynz4x7yb2a888gl15bir60h-nodejs-22.22.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-ybb1lkslbynz4x7yb2a888gl15bir60h-nodejs-22.22.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-ybb1lkslbynz4x7yb2a888gl15bir60h-nodejs-22.22.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-ybb1lkslbynz4x7yb2a888gl15bir60h-nodejs-22.22.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-vqy8ay1rzvybx4hkhby1bc0559jixpp4-bash-interactive-5.3p3.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv"
+    },
+    {
+      "spdxElementId": "SPDXRef-nix-store-h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-nix-store-fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    }
+  ]
+}

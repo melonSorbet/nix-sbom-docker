@@ -1,0 +1,821 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "serialNumber": "urn:uuid:4f440bb4-4607-4210-90dd-accb21c28d04",
+  "metadata": {
+    "timestamp": "2026-05-20T12:32:22.794557+02:00",
+    "properties": [
+      {
+        "name": "sbom_type",
+        "value": "runtime_only"
+      }
+    ],
+    "tools": [
+      {
+        "vendor": "TII",
+        "name": "sbomnix",
+        "version": "1.7.4"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "/nix/store/21r62m50gzl66rfkm988g04s090aslly-node-app-env.drv",
+      "name": "node-app-env",
+      "version": "",
+      "purl": "pkg:nix/node-app-env",
+      "cpe": "cpe:2.3:a:node-app-env:node-app-env::*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/wjcz4sgx061ifdf5idfl2l1s0h788l90-node-app-env"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/21r62m50gzl66rfkm988g04s090aslly-node-app-env.drv"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/4qm0x8h1mvwgh54lxb5hvyf8w14f6f4h-acl-2.3.2.drv",
+      "name": "acl",
+      "version": "2.3.2",
+      "purl": "pkg:nix/acl@2.3.2",
+      "cpe": "cpe:2.3:a:xfs:acl:2.3.2:*:*:*:*:*:*:*",
+      "description": "Library and tools for manipulating access control lists",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/f9zy83r51fxj1j8db10pv5ccvvakrsyd-acl-2.3.2"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/4qm0x8h1mvwgh54lxb5hvyf8w14f6f4h-acl-2.3.2.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://savannah.nongnu.org/projects/acl"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/i3jnr0fi1fi5kif6pvqd348gbmgldkqn-attr-2.5.2.drv",
+      "name": "attr",
+      "version": "2.5.2",
+      "purl": "pkg:nix/attr@2.5.2",
+      "cpe": "cpe:2.3:a:attr:attr:2.5.2:*:*:*:*:*:*:*",
+      "description": "Library and tools for manipulating extended attributes",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/yz9fdbdlmfyvivgxkwdsnj5l0lg7j0c0-attr-2.5.2"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/i3jnr0fi1fi5kif6pvqd348gbmgldkqn-attr-2.5.2.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://savannah.nongnu.org/projects/attr/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv",
+      "name": "bash",
+      "version": "5.3p3",
+      "purl": "pkg:nix/bash@5.3p3",
+      "cpe": "cpe:2.3:a:gnu:bash:5.3p3:*:*:*:*:*:*:*",
+      "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/3hgg7pr65imdrifqqh3flg3arvkc2r22-bash-5.3p3"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.gnu.org/software/bash/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/vqy8ay1rzvybx4hkhby1bc0559jixpp4-bash-interactive-5.3p3.drv",
+      "name": "bash-interactive",
+      "version": "5.3p3",
+      "purl": "pkg:nix/bash-interactive@5.3p3",
+      "cpe": "cpe:2.3:a:bash-interactive:bash-interactive:5.3p3:*:*:*:*:*:*:*",
+      "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux (for interactive use)",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/lfbzxs5wyqd2122mpbj5azkxhxspw9cd-bash-interactive-5.3p3"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/vqy8ay1rzvybx4hkhby1bc0559jixpp4-bash-interactive-5.3p3.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.gnu.org/software/bash/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/n80wl1635liw3v57aivw6xsjmw5x1s71-coreutils-9.8.drv",
+      "name": "coreutils",
+      "version": "9.8",
+      "purl": "pkg:nix/coreutils@9.8",
+      "cpe": "cpe:2.3:a:coreutils:coreutils:9.8:*:*:*:*:*:*:*",
+      "description": "GNU Core Utilities",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/hqkszxk2c0cxvd04xa4gsaqs182dw8l2-coreutils-9.8"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/n80wl1635liw3v57aivw6xsjmw5x1s71-coreutils-9.8.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.gnu.org/software/coreutils/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv",
+      "name": "gcc",
+      "version": "14.3.0",
+      "purl": "pkg:nix/gcc@14.3.0",
+      "cpe": "cpe:2.3:a:gcc:gcc:14.3.0:*:*:*:*:*:*:*",
+      "description": "GNU Compiler Collection, version 14.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/phpq5h7cp6y1w84aysy29548irqy5dd9-gcc-14.3.0-libgcc"
+        },
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/ybp235ps7m4yd85v0pgvqkhd4xmxf6jq-gcc-14.3.0-lib"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://gcc.gnu.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+      "name": "glibc",
+      "version": "2.40-224",
+      "purl": "pkg:nix/glibc@2.40-224",
+      "cpe": "cpe:2.3:a:glibc:glibc:2.40-224:*:*:*:*:*:*:*",
+      "description": "GNU C Library",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.0-or-later"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/7nbi22pcc92y2fqbkyp7h3srvvklmckb-glibc-2.40-224"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.gnu.org/software/libc/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/mjr18cqnfzz97vi7nd3m0yrq57l8652n-gmp-with-cxx-6.3.0.drv",
+      "name": "gmp-with-cxx",
+      "version": "6.3.0",
+      "purl": "pkg:nix/gmp-with-cxx@6.3.0",
+      "cpe": "cpe:2.3:a:gmp-with-cxx:gmp-with-cxx:6.3.0:*:*:*:*:*:*:*",
+      "description": "GNU multiple precision arithmetic library",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/dw8qxi3l3j5ip7i6kjyp9jnr4nsp63g7-gmp-with-cxx-6.3.0"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/mjr18cqnfzz97vi7nd3m0yrq57l8652n-gmp-with-cxx-6.3.0.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://gmplib.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/gvxm2j6wcfhhkcn75kakdm8amrj4bsbc-icu4c-76.1.drv",
+      "name": "icu4c",
+      "version": "76.1",
+      "purl": "pkg:nix/icu4c@76.1",
+      "cpe": "cpe:2.3:a:icu4c:icu4c:76.1:*:*:*:*:*:*:*",
+      "description": "Unicode and globalization support library",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/8pr908sqkiw8ljbvy97w3dkzyc6gp33c-icu4c-76.1-dev"
+        },
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/8vx8avzfcpcldsipwd7iz65r7ig9p4dv-icu4c-76.1"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/gvxm2j6wcfhhkcn75kakdm8amrj4bsbc-icu4c-76.1.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://icu.unicode.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/a64c09hgbhz1k3knddjgc43z6hpb0gsx-libidn2-2.3.8.drv",
+      "name": "libidn2",
+      "version": "2.3.8",
+      "purl": "pkg:nix/libidn2@2.3.8",
+      "cpe": "cpe:2.3:a:gnu:libidn2:2.3.8:*:*:*:*:*:*:*",
+      "description": "Free software implementation of IDNA2008 and TR46",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/qywg7bxskvihq62ms2g51fkzkrdnyfkh-libidn2-2.3.8"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/a64c09hgbhz1k3knddjgc43z6hpb0gsx-libidn2-2.3.8.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.gnu.org/software/libidn/#libidn2"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/j800s5phgfn9jg7iyiys89qjcr5hxriz-libunistring-1.4.1.drv",
+      "name": "libunistring",
+      "version": "1.4.1",
+      "purl": "pkg:nix/libunistring@1.4.1",
+      "cpe": "cpe:2.3:a:libunistring:libunistring:1.4.1:*:*:*:*:*:*:*",
+      "description": "Unicode string library",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/hjwppd89fk8781xl4r35xqlddwqi5f66-libunistring-1.4.1"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/j800s5phgfn9jg7iyiys89qjcr5hxriz-libunistring-1.4.1.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.gnu.org/software/libunistring/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/i7snpgr9wa7x8s8zwzjva1nwnpqmyz0g-libuv-1.51.0.drv",
+      "name": "libuv",
+      "version": "1.51.0",
+      "purl": "pkg:nix/libuv@1.51.0",
+      "cpe": "cpe:2.3:a:libuv:libuv:1.51.0:*:*:*:*:*:*:*",
+      "description": "Multi-platform support library with a focus on asynchronous I/O",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "ISC"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "CC-BY-4.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/hz66ly95w3cz40m121v39nz9z5djyl5s-libuv-1.51.0-dev"
+        },
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/y4v5k2dj6ism3wslc8nh3xmr6b5qw4zm-libuv-1.51.0"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/i7snpgr9wa7x8s8zwzjva1nwnpqmyz0g-libuv-1.51.0.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://libuv.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv",
+      "name": "ncurses",
+      "version": "6.5",
+      "purl": "pkg:nix/ncurses@6.5",
+      "cpe": "cpe:2.3:a:ncurses:ncurses:6.5:*:*:*:*:*:*:*",
+      "description": "Free software emulation of curses in SVR4 and more",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/ffyzkisqs4vc4mg28bwwlyqjf8i9ph6b-ncurses-6.5"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.gnu.org/software/ncurses/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/b9r82x24sc758rs29p79kh1khj6kmcdg-node-app-1.0.0.drv",
+      "name": "node-app",
+      "version": "1.0.0",
+      "purl": "pkg:nix/node-app@1.0.0",
+      "cpe": "cpe:2.3:a:node-app:node-app:1.0.0:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/z7a25l5haabjk7r5d0xpjjzfyf69210l-node-app-1.0.0"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/b9r82x24sc758rs29p79kh1khj6kmcdg-node-app-1.0.0.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/ybb1lkslbynz4x7yb2a888gl15bir60h-nodejs-22.22.2.drv",
+      "name": "nodejs",
+      "version": "22.22.2",
+      "purl": "pkg:nix/nodejs@22.22.2",
+      "cpe": "cpe:2.3:a:nodejs:nodejs:22.22.2:*:*:*:*:*:*:*",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/qbj1w0y8ilv183jhdv2ws6dfhzph680p-nodejs-22.22.2"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/ybb1lkslbynz4x7yb2a888gl15bir60h-nodejs-22.22.2.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://nodejs.org"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv",
+      "name": "openssl",
+      "version": "3.6.2",
+      "purl": "pkg:nix/openssl@3.6.2",
+      "cpe": "cpe:2.3:a:openssl:openssl:3.6.2:*:*:*:*:*:*:*",
+      "description": "Cryptographic library that implements the SSL and TLS protocols",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/3ffi89rlwcqww9x71pf95miyik5jhnv9-openssl-3.6.2-bin"
+        },
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/by19gg2pqp2b1gqphdf6bwk2g3hgak79-openssl-3.6.2"
+        },
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/cqkz127l4l98xgp7p6y1j2cqvyx0w3jl-openssl-3.6.2-dev"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.openssl.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv",
+      "name": "readline",
+      "version": "8.3p1",
+      "purl": "pkg:nix/readline@8.3p1",
+      "cpe": "cpe:2.3:a:gnu:readline:8.3p1:*:*:*:*:*:*:*",
+      "description": "Library for interactive line editing",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/brb97wgi4lld4km09dy5cnklkjr48fdq-readline-8.3p1"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://savannah.gnu.org/projects/readline/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv",
+      "name": "sqlite",
+      "version": "3.50.4",
+      "purl": "pkg:nix/sqlite@3.50.4",
+      "cpe": "cpe:2.3:a:sqlite:sqlite:3.50.4:*:*:*:*:*:*:*",
+      "description": "Self-contained, serverless, zero-configuration, transactional SQL database engine",
+      "licenses": [
+        {
+          "license": {
+            "name": "publicDomain"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/7cysvl3fn6h723h5hk7vykl7kwkwvpmn-sqlite-3.50.4-dev"
+        },
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/hfi7wfmjsap0l5jzjgphz4m76w3s9sm4-sqlite-3.50.4-bin"
+        },
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/p0070ky52z5qq0s7815dc93v1xh9bnd4-sqlite-3.50.4"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.sqlite.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/k3yfb24asq152abydbqg56mdzq9q4bqy-xgcc-14.3.0.drv",
+      "name": "xgcc",
+      "version": "14.3.0",
+      "purl": "pkg:nix/xgcc@14.3.0",
+      "cpe": "cpe:2.3:a:xgcc:xgcc:14.3.0:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/fv5lgysa3hmf3l3dkkpwvndcg6xwhy8m-xgcc-14.3.0-libgcc"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/k3yfb24asq152abydbqg56mdzq9q4bqy-xgcc-14.3.0.drv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "/nix/store/h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv",
+      "name": "zlib",
+      "version": "1.3.2",
+      "purl": "pkg:nix/zlib@1.3.2",
+      "cpe": "cpe:2.3:a:zlib:zlib:1.3.2:*:*:*:*:*:*:*",
+      "description": "Lossless data-compression library",
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/lf793zr9yfa0dpph8jlxbbdnvnahvq8b-zlib-1.3.2"
+        },
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/wkvc3p6ih0f7v7aqchj7lmn6j816sapf-zlib-1.3.2-dev"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://zlib.net"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "/nix/store/4qm0x8h1mvwgh54lxb5hvyf8w14f6f4h-acl-2.3.2.drv",
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+        "/nix/store/i3jnr0fi1fi5kif6pvqd348gbmgldkqn-attr-2.5.2.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/i3jnr0fi1fi5kif6pvqd348gbmgldkqn-attr-2.5.2.drv",
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv",
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/vqy8ay1rzvybx4hkhby1bc0559jixpp4-bash-interactive-5.3p3.drv",
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+        "/nix/store/qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv",
+        "/nix/store/x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/n80wl1635liw3v57aivw6xsjmw5x1s71-coreutils-9.8.drv",
+      "dependsOn": [
+        "/nix/store/4qm0x8h1mvwgh54lxb5hvyf8w14f6f4h-acl-2.3.2.drv",
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+        "/nix/store/i3jnr0fi1fi5kif6pvqd348gbmgldkqn-attr-2.5.2.drv",
+        "/nix/store/mjr18cqnfzz97vi7nd3m0yrq57l8652n-gmp-with-cxx-6.3.0.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv",
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+      "dependsOn": [
+        "/nix/store/a64c09hgbhz1k3knddjgc43z6hpb0gsx-libidn2-2.3.8.drv",
+        "/nix/store/k3yfb24asq152abydbqg56mdzq9q4bqy-xgcc-14.3.0.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/mjr18cqnfzz97vi7nd3m0yrq57l8652n-gmp-with-cxx-6.3.0.drv",
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+        "/nix/store/kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/gvxm2j6wcfhhkcn75kakdm8amrj4bsbc-icu4c-76.1.drv",
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+        "/nix/store/gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv",
+        "/nix/store/kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv",
+        "/nix/store/n80wl1635liw3v57aivw6xsjmw5x1s71-coreutils-9.8.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/a64c09hgbhz1k3knddjgc43z6hpb0gsx-libidn2-2.3.8.drv",
+      "dependsOn": [
+        "/nix/store/j800s5phgfn9jg7iyiys89qjcr5hxriz-libunistring-1.4.1.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/j800s5phgfn9jg7iyiys89qjcr5hxriz-libunistring-1.4.1.drv"
+    },
+    {
+      "ref": "/nix/store/i7snpgr9wa7x8s8zwzjva1nwnpqmyz0g-libuv-1.51.0.drv",
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv",
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/b9r82x24sc758rs29p79kh1khj6kmcdg-node-app-1.0.0.drv",
+      "dependsOn": [
+        "/nix/store/ybb1lkslbynz4x7yb2a888gl15bir60h-nodejs-22.22.2.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/21r62m50gzl66rfkm988g04s090aslly-node-app-env.drv",
+      "dependsOn": [
+        "/nix/store/b9r82x24sc758rs29p79kh1khj6kmcdg-node-app-1.0.0.drv",
+        "/nix/store/ybb1lkslbynz4x7yb2a888gl15bir60h-nodejs-22.22.2.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/ybb1lkslbynz4x7yb2a888gl15bir60h-nodejs-22.22.2.drv",
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+        "/nix/store/gvxm2j6wcfhhkcn75kakdm8amrj4bsbc-icu4c-76.1.drv",
+        "/nix/store/h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv",
+        "/nix/store/i7snpgr9wa7x8s8zwzjva1nwnpqmyz0g-libuv-1.51.0.drv",
+        "/nix/store/kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv",
+        "/nix/store/q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv",
+        "/nix/store/vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv",
+        "/nix/store/vqy8ay1rzvybx4hkhby1bc0559jixpp4-bash-interactive-5.3p3.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv",
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv",
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+        "/nix/store/x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv",
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+        "/nix/store/h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv"
+      ]
+    },
+    {
+      "ref": "/nix/store/k3yfb24asq152abydbqg56mdzq9q4bqy-xgcc-14.3.0.drv"
+    },
+    {
+      "ref": "/nix/store/h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv",
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ]
+    }
+  ]
+}
