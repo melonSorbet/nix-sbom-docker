@@ -29,6 +29,12 @@ echo "==> bombon (second derivational CycloneDX from .#$APP-env)"
 nix build ".#$APP-bom" -o "./result-$APP-bom"
 install -m 644 "./result-$APP-bom" "$OUT/bombon.cdx.json"
 
+echo "==> pbom-emit (PBOM from sbomnix runtime+buildtime)"
+python "$ROOT/tools/pbom-emitter/pbom_emitter.py" ".#$APP-env" \
+  --runtime-cdx="$OUT/sbomnix-runtime.cdx.json" \
+  --buildtime-cdx="$OUT/sbomnix-buildtime.cdx.json" \
+  -o "$OUT/pbom.cdx.json"
+
 echo "==> Loading image into docker as $IMAGE_NAME"
 docker load < "./result-$APP-image"
 

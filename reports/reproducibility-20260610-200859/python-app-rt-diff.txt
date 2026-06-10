@@ -1,0 +1,468 @@
+35,64d34
+<       "bom-ref": "/nix/store/4qq3mgjcwd7ijy5pqd08ky9hp5y9jhdf-readline-8.3p1.drv",
+<       "cpe": "cpe:2.3:a:gnu:readline:8.3p1:*:*:*:*:*:*:*",
+<       "description": "Library for interactive line editing",
+<       "licenses": [
+<         {
+<           "license": {
+<             "id": "GPL-3.0-or-later"
+<           }
+<         }
+<       ],
+<       "name": "readline",
+<       "properties": [
+<         {
+<           "name": "nix:output_path",
+<           "value": "/nix/store/brb97wgi4lld4km09dy5cnklkjr48fdq-readline-8.3p1"
+<         },
+<         {
+<           "name": "nix:drv_path",
+<           "value": "/nix/store/4qq3mgjcwd7ijy5pqd08ky9hp5y9jhdf-readline-8.3p1.drv"
+<         },
+<         {
+<           "name": "homepage",
+<           "value": "https://savannah.gnu.org/projects/readline/"
+<         }
+<       ],
+<       "purl": "pkg:nix/readline@8.3p1",
+<       "type": "library",
+<       "version": "8.3p1"
+<     },
+<     {
+95,154d64
+<       "bom-ref": "/nix/store/7pqj5b2ngbrq98y9vk5938hvv7rz1rhj-sqlite-3.50.4.drv",
+<       "cpe": "cpe:2.3:a:sqlite:sqlite:3.50.4:*:*:*:*:*:*:*",
+<       "description": "Self-contained, serverless, zero-configuration, transactional SQL database engine",
+<       "licenses": [
+<         {
+<           "license": {
+<             "name": "publicDomain"
+<           }
+<         }
+<       ],
+<       "name": "sqlite",
+<       "properties": [
+<         {
+<           "name": "nix:output_path",
+<           "value": "/nix/store/p0070ky52z5qq0s7815dc93v1xh9bnd4-sqlite-3.50.4"
+<         },
+<         {
+<           "name": "nix:drv_path",
+<           "value": "/nix/store/7pqj5b2ngbrq98y9vk5938hvv7rz1rhj-sqlite-3.50.4.drv"
+<         },
+<         {
+<           "name": "homepage",
+<           "value": "https://www.sqlite.org/"
+<         }
+<       ],
+<       "purl": "pkg:nix/sqlite@3.50.4",
+<       "type": "library",
+<       "version": "3.50.4"
+<     },
+<     {
+<       "bom-ref": "/nix/store/a4swvba11vs8lg06rfw88kf13y45lzia-gdbm-1.26.drv",
+<       "cpe": "cpe:2.3:a:gdbm:gdbm:1.26:*:*:*:*:*:*:*",
+<       "description": "GNU dbm key/value database library",
+<       "licenses": [
+<         {
+<           "license": {
+<             "id": "GPL-3.0-or-later"
+<           }
+<         }
+<       ],
+<       "name": "gdbm",
+<       "properties": [
+<         {
+<           "name": "nix:output_path",
+<           "value": "/nix/store/wxy7sj4vxcbvkjsplbjsy40mzjm8d4xc-gdbm-1.26-lib"
+<         },
+<         {
+<           "name": "nix:drv_path",
+<           "value": "/nix/store/a4swvba11vs8lg06rfw88kf13y45lzia-gdbm-1.26.drv"
+<         },
+<         {
+<           "name": "homepage",
+<           "value": "https://www.gnu.org/software/gdbm/"
+<         }
+<       ],
+<       "purl": "pkg:nix/gdbm@1.26",
+<       "type": "library",
+<       "version": "1.26"
+<     },
+<     {
+225,254d134
+<       "bom-ref": "/nix/store/bcgas4ad5q1v0f2ni2fa46068ip9vngq-mailcap-2.1.54.drv",
+<       "cpe": "cpe:2.3:a:mailcap:mailcap:2.1.54:*:*:*:*:*:*:*",
+<       "description": "Helper application and MIME type associations for file types",
+<       "licenses": [
+<         {
+<           "license": {
+<             "id": "MIT"
+<           }
+<         }
+<       ],
+<       "name": "mailcap",
+<       "properties": [
+<         {
+<           "name": "nix:output_path",
+<           "value": "/nix/store/7g2rwy25wdndxy3zr7q8d49bxyjbzcw0-mailcap-2.1.54"
+<         },
+<         {
+<           "name": "nix:drv_path",
+<           "value": "/nix/store/bcgas4ad5q1v0f2ni2fa46068ip9vngq-mailcap-2.1.54.drv"
+<         },
+<         {
+<           "name": "homepage",
+<           "value": "https://pagure.io/mailcap"
+<         }
+<       ],
+<       "purl": "pkg:nix/mailcap@2.1.54",
+<       "type": "library",
+<       "version": "2.1.54"
+<     },
+<     {
+475a356,385
+>       "bom-ref": "/nix/store/gribg4vmbzfmddqvcnfwya0x25dpvimz-mailcap-2.1.54.drv",
+>       "cpe": "cpe:2.3:a:mailcap:mailcap:2.1.54:*:*:*:*:*:*:*",
+>       "description": "Helper application and MIME type associations for file types",
+>       "licenses": [
+>         {
+>           "license": {
+>             "id": "MIT"
+>           }
+>         }
+>       ],
+>       "name": "mailcap",
+>       "properties": [
+>         {
+>           "name": "nix:output_path",
+>           "value": "/nix/store/7g2rwy25wdndxy3zr7q8d49bxyjbzcw0-mailcap-2.1.54"
+>         },
+>         {
+>           "name": "nix:drv_path",
+>           "value": "/nix/store/gribg4vmbzfmddqvcnfwya0x25dpvimz-mailcap-2.1.54.drv"
+>         },
+>         {
+>           "name": "homepage",
+>           "value": "https://pagure.io/mailcap"
+>         }
+>       ],
+>       "purl": "pkg:nix/mailcap@2.1.54",
+>       "type": "library",
+>       "version": "2.1.54"
+>     },
+>     {
+566,625d475
+<       "bom-ref": "/nix/store/i2l6lnw2y9516lr5d233c64pk5if0zqg-mpdecimal-4.0.1.drv",
+<       "cpe": "cpe:2.3:a:mpdecimal:mpdecimal:4.0.1:*:*:*:*:*:*:*",
+<       "description": "Library for arbitrary precision decimal floating point arithmetic",
+<       "licenses": [
+<         {
+<           "license": {
+<             "id": "BSD-2-Clause"
+<           }
+<         }
+<       ],
+<       "name": "mpdecimal",
+<       "properties": [
+<         {
+<           "name": "nix:output_path",
+<           "value": "/nix/store/mc5phzxsq1a7l15il4zam170y75k8y4v-mpdecimal-4.0.1"
+<         },
+<         {
+<           "name": "nix:drv_path",
+<           "value": "/nix/store/i2l6lnw2y9516lr5d233c64pk5if0zqg-mpdecimal-4.0.1.drv"
+<         },
+<         {
+<           "name": "homepage",
+<           "value": "https://www.bytereef.org/mpdecimal/index.html"
+<         }
+<       ],
+<       "purl": "pkg:nix/mpdecimal@4.0.1",
+<       "type": "library",
+<       "version": "4.0.1"
+<     },
+<     {
+<       "bom-ref": "/nix/store/izhl4bcm0zknj46ivpsfv6pxh1jkf43w-openssl-3.6.2.drv",
+<       "cpe": "cpe:2.3:a:openssl:openssl:3.6.2:*:*:*:*:*:*:*",
+<       "description": "Cryptographic library that implements the SSL and TLS protocols",
+<       "licenses": [
+<         {
+<           "license": {
+<             "id": "Apache-2.0"
+<           }
+<         }
+<       ],
+<       "name": "openssl",
+<       "properties": [
+<         {
+<           "name": "nix:output_path",
+<           "value": "/nix/store/by19gg2pqp2b1gqphdf6bwk2g3hgak79-openssl-3.6.2"
+<         },
+<         {
+<           "name": "nix:drv_path",
+<           "value": "/nix/store/izhl4bcm0zknj46ivpsfv6pxh1jkf43w-openssl-3.6.2.drv"
+<         },
+<         {
+<           "name": "homepage",
+<           "value": "https://www.openssl.org/"
+<         }
+<       ],
+<       "purl": "pkg:nix/openssl@3.6.2",
+<       "type": "library",
+<       "version": "3.6.2"
+<     },
+<     {
+797a648,677
+>       "bom-ref": "/nix/store/m80k45px4lm5rqxjic8bpy7m53587q7f-mpdecimal-4.0.1.drv",
+>       "cpe": "cpe:2.3:a:mpdecimal:mpdecimal:4.0.1:*:*:*:*:*:*:*",
+>       "description": "Library for arbitrary precision decimal floating point arithmetic",
+>       "licenses": [
+>         {
+>           "license": {
+>             "id": "BSD-2-Clause"
+>           }
+>         }
+>       ],
+>       "name": "mpdecimal",
+>       "properties": [
+>         {
+>           "name": "nix:output_path",
+>           "value": "/nix/store/mc5phzxsq1a7l15il4zam170y75k8y4v-mpdecimal-4.0.1"
+>         },
+>         {
+>           "name": "nix:drv_path",
+>           "value": "/nix/store/m80k45px4lm5rqxjic8bpy7m53587q7f-mpdecimal-4.0.1.drv"
+>         },
+>         {
+>           "name": "homepage",
+>           "value": "https://www.bytereef.org/mpdecimal/index.html"
+>         }
+>       ],
+>       "purl": "pkg:nix/mpdecimal@4.0.1",
+>       "type": "library",
+>       "version": "4.0.1"
+>     },
+>     {
+875a756,815
+>       "bom-ref": "/nix/store/q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv",
+>       "cpe": "cpe:2.3:a:openssl:openssl:3.6.2:*:*:*:*:*:*:*",
+>       "description": "Cryptographic library that implements the SSL and TLS protocols",
+>       "licenses": [
+>         {
+>           "license": {
+>             "id": "Apache-2.0"
+>           }
+>         }
+>       ],
+>       "name": "openssl",
+>       "properties": [
+>         {
+>           "name": "nix:output_path",
+>           "value": "/nix/store/by19gg2pqp2b1gqphdf6bwk2g3hgak79-openssl-3.6.2"
+>         },
+>         {
+>           "name": "nix:drv_path",
+>           "value": "/nix/store/q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv"
+>         },
+>         {
+>           "name": "homepage",
+>           "value": "https://www.openssl.org/"
+>         }
+>       ],
+>       "purl": "pkg:nix/openssl@3.6.2",
+>       "type": "library",
+>       "version": "3.6.2"
+>     },
+>     {
+>       "bom-ref": "/nix/store/qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv",
+>       "cpe": "cpe:2.3:a:gnu:readline:8.3p1:*:*:*:*:*:*:*",
+>       "description": "Library for interactive line editing",
+>       "licenses": [
+>         {
+>           "license": {
+>             "id": "GPL-3.0-or-later"
+>           }
+>         }
+>       ],
+>       "name": "readline",
+>       "properties": [
+>         {
+>           "name": "nix:output_path",
+>           "value": "/nix/store/brb97wgi4lld4km09dy5cnklkjr48fdq-readline-8.3p1"
+>         },
+>         {
+>           "name": "nix:drv_path",
+>           "value": "/nix/store/qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv"
+>         },
+>         {
+>           "name": "homepage",
+>           "value": "https://savannah.gnu.org/projects/readline/"
+>         }
+>       ],
+>       "purl": "pkg:nix/readline@8.3p1",
+>       "type": "library",
+>       "version": "8.3p1"
+>     },
+>     {
+905a846,875
+>       "bom-ref": "/nix/store/vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv",
+>       "cpe": "cpe:2.3:a:sqlite:sqlite:3.50.4:*:*:*:*:*:*:*",
+>       "description": "Self-contained, serverless, zero-configuration, transactional SQL database engine",
+>       "licenses": [
+>         {
+>           "license": {
+>             "name": "publicDomain"
+>           }
+>         }
+>       ],
+>       "name": "sqlite",
+>       "properties": [
+>         {
+>           "name": "nix:output_path",
+>           "value": "/nix/store/p0070ky52z5qq0s7815dc93v1xh9bnd4-sqlite-3.50.4"
+>         },
+>         {
+>           "name": "nix:drv_path",
+>           "value": "/nix/store/vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv"
+>         },
+>         {
+>           "name": "homepage",
+>           "value": "https://www.sqlite.org/"
+>         }
+>       ],
+>       "purl": "pkg:nix/sqlite@3.50.4",
+>       "type": "library",
+>       "version": "3.50.4"
+>     },
+>     {
+935a906,935
+>       "bom-ref": "/nix/store/w4a8lqn4k0d7p9171c39abv71npnmmhv-gdbm-1.26.drv",
+>       "cpe": "cpe:2.3:a:gdbm:gdbm:1.26:*:*:*:*:*:*:*",
+>       "description": "GNU dbm key/value database library",
+>       "licenses": [
+>         {
+>           "license": {
+>             "id": "GPL-3.0-or-later"
+>           }
+>         }
+>       ],
+>       "name": "gdbm",
+>       "properties": [
+>         {
+>           "name": "nix:output_path",
+>           "value": "/nix/store/wxy7sj4vxcbvkjsplbjsy40mzjm8d4xc-gdbm-1.26-lib"
+>         },
+>         {
+>           "name": "nix:drv_path",
+>           "value": "/nix/store/w4a8lqn4k0d7p9171c39abv71npnmmhv-gdbm-1.26.drv"
+>         },
+>         {
+>           "name": "homepage",
+>           "value": "https://www.gnu.org/software/gdbm/"
+>         }
+>       ],
+>       "purl": "pkg:nix/gdbm@1.26",
+>       "type": "library",
+>       "version": "1.26"
+>     },
+>     {
+1152,1154d1151
+<         "/nix/store/4qq3mgjcwd7ijy5pqd08ky9hp5y9jhdf-readline-8.3p1.drv",
+<         "/nix/store/7pqj5b2ngbrq98y9vk5938hvv7rz1rhj-sqlite-3.50.4.drv",
+<         "/nix/store/a4swvba11vs8lg06rfw88kf13y45lzia-gdbm-1.26.drv",
+1156d1152
+<         "/nix/store/bcgas4ad5q1v0f2ni2fa46068ip9vngq-mailcap-2.1.54.drv",
+1159a1156
+>         "/nix/store/gribg4vmbzfmddqvcnfwya0x25dpvimz-mailcap-2.1.54.drv",
+1162,1163d1158
+<         "/nix/store/i2l6lnw2y9516lr5d233c64pk5if0zqg-mpdecimal-4.0.1.drv",
+<         "/nix/store/izhl4bcm0zknj46ivpsfv6pxh1jkf43w-openssl-3.6.2.drv",
+1164a1160,1163
+>         "/nix/store/m80k45px4lm5rqxjic8bpy7m53587q7f-mpdecimal-4.0.1.drv",
+>         "/nix/store/q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv",
+>         "/nix/store/qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv",
+>         "/nix/store/vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv",
+1165a1165
+>         "/nix/store/w4a8lqn4k0d7p9171c39abv71npnmmhv-gdbm-1.26.drv",
+1174,1180d1173
+<         "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+<         "/nix/store/x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv"
+<       ],
+<       "ref": "/nix/store/4qq3mgjcwd7ijy5pqd08ky9hp5y9jhdf-readline-8.3p1.drv"
+<     },
+<     {
+<       "dependsOn": [
+1188,1200d1180
+<         "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+<         "/nix/store/h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv"
+<       ],
+<       "ref": "/nix/store/7pqj5b2ngbrq98y9vk5938hvv7rz1rhj-sqlite-3.50.4.drv"
+<     },
+<     {
+<       "dependsOn": [
+<         "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+<       ],
+<       "ref": "/nix/store/a4swvba11vs8lg06rfw88kf13y45lzia-gdbm-1.26.drv"
+<     },
+<     {
+<       "dependsOn": [
+1212,1215d1191
+<       "dependsOn": [],
+<       "ref": "/nix/store/bcgas4ad5q1v0f2ni2fa46068ip9vngq-mailcap-2.1.54.drv"
+<     },
+<     {
+1265a1242,1245
+>       "dependsOn": [],
+>       "ref": "/nix/store/gribg4vmbzfmddqvcnfwya0x25dpvimz-mailcap-2.1.54.drv"
+>     },
+>     {
+1292,1303d1271
+<         "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+<       ],
+<       "ref": "/nix/store/i2l6lnw2y9516lr5d233c64pk5if0zqg-mpdecimal-4.0.1.drv"
+<     },
+<     {
+<       "dependsOn": [
+<         "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+<       ],
+<       "ref": "/nix/store/izhl4bcm0zknj46ivpsfv6pxh1jkf43w-openssl-3.6.2.drv"
+<     },
+<     {
+<       "dependsOn": [
+1338a1307,1312
+>         "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+>       ],
+>       "ref": "/nix/store/m80k45px4lm5rqxjic8bpy7m53587q7f-mpdecimal-4.0.1.drv"
+>     },
+>     {
+>       "dependsOn": [
+1361a1336,1348
+>         "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+>       ],
+>       "ref": "/nix/store/q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv"
+>     },
+>     {
+>       "dependsOn": [
+>         "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+>         "/nix/store/x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv"
+>       ],
+>       "ref": "/nix/store/qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv"
+>     },
+>     {
+>       "dependsOn": [
+1368a1356,1362
+>         "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+>         "/nix/store/h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv"
+>       ],
+>       "ref": "/nix/store/vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv"
+>     },
+>     {
+>       "dependsOn": [
+1371a1366,1371
+>     },
+>     {
+>       "dependsOn": [
+>         "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+>       ],
+>       "ref": "/nix/store/w4a8lqn4k0d7p9171c39abv71npnmmhv-gdbm-1.26.drv"

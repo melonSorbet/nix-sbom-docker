@@ -1,0 +1,20 @@
+REPRODUCIBILITY TEST REPORT
+===========================
+Run    : 2026-06-10T20:27:26+02:00
+Host   : fedora
+Nix    : nix (Nix) 2.32.4
+Method : delete result symlink + nix-collect-garbage between builds,
+         then rebuild and compare. SBOM/PBOM normalized for serialNumber,
+         metadata.timestamp, and component/dependency order.
+
+app          | cold?   | store-path | tarball | sbom-rt | sbom-bt | pbom
+-------------|---------|------------|---------|---------|---------|------
+node-app     | yes     | PASS       | PASS    | PASS    | PASS    | FAIL
+
+Hashes:
+  node-app:
+    store path  : /nix/store/q1yv39c8nq4nmx5ycqw13y2i3fhhx3r2-node-app-nix.tar.gz
+    tarball sha (build 1): 247a90ead518698726a372b6749c4c593a69baf6a7550b016259054529898210
+    tarball sha (build 2): 247a90ead518698726a372b6749c4c593a69baf6a7550b016259054529898210
+
+Artifacts: /home/user/Work/nix-sbom/reports/reproducibility-20260610-201839

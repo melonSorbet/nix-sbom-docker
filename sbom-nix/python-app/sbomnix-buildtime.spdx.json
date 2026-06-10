@@ -3,9 +3,9 @@
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
   "name": "SPDXRef-nix-store-nymai4gn6sisdl9xjhkq764a9vsyfj70-python-app-env.drv",
-  "documentNamespace": "sbomnix://11548396-52df-47b8-9147-0416528483ba",
+  "documentNamespace": "sbomnix://2f7a9a20-36bc-4195-8e91-fba3f0c61ec8",
   "creationInfo": {
-    "created": "2026-05-20T12:51:33.814789+02:00",
+    "created": "2026-05-27T22:43:04.015475+02:00",
     "creators": [
       "Tool: sbomnix-1.7.4"
     ]
@@ -19500,7 +19500,7 @@
         {
           "referenceCategory": "SECURITY",
           "referenceType": "cpe23Type",
-          "referenceLocator": "cpe:2.3:a:ngtcp2:ngtcp2:1.22.1:*:*:*:*:*:*:*"
+          "referenceLocator": "cpe:2.3:a:nghttp2:ngtcp2:1.22.1:*:*:*:*:*:*:*"
         },
         {
           "referenceCategory": "PACKAGE-MANAGER",

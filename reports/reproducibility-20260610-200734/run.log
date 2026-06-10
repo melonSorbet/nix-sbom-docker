@@ -1,0 +1,2 @@
+warning: Git tree '/home/user/Work/nix-sbom' is dirty
+./scripts/reproducibility-test.sh: line 57: sbomnix: command not found

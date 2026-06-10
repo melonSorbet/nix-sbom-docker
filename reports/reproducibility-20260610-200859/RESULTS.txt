@@ -1,0 +1,20 @@
+REPRODUCIBILITY TEST REPORT
+===========================
+Run    : 2026-06-10T20:15:13+02:00
+Host   : fedora
+Nix    : nix (Nix) 2.32.4
+Method : delete result symlink + nix-collect-garbage between builds,
+         then rebuild and compare. SBOM/PBOM normalized for serialNumber,
+         metadata.timestamp, and component/dependency order.
+
+app          | cold?   | store-path | tarball | sbom-rt | sbom-bt | pbom
+-------------|---------|------------|---------|---------|---------|------
+python-app   | yes     | PASS       | PASS    | FAIL    | PASS    | FAIL
+
+Hashes:
+  python-app:
+    store path  : /nix/store/9js9va6y4ilmqh1jr0f2pcplda1apc4s-python-app-nix.tar.gz
+    tarball sha (build 1): 6c4b3964f7acfbeb5c61db4a3d19a748468f6016eed2964f9b998382afe99230
+    tarball sha (build 2): 6c4b3964f7acfbeb5c61db4a3d19a748468f6016eed2964f9b998382afe99230
+
+Artifacts: /home/user/Work/nix-sbom/reports/reproducibility-20260610-200859

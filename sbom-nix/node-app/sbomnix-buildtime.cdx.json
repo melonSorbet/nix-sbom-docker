@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
   "version": 1,
-  "serialNumber": "urn:uuid:c3941a08-98f6-4da9-bd00-7206d728ba67",
+  "serialNumber": "urn:uuid:2d36bd05-addb-45d1-8a61-df6c849a2855",
   "metadata": {
-    "timestamp": "2026-05-20T12:52:34.932791+02:00",
+    "timestamp": "2026-05-27T22:11:45.015413+02:00",
     "properties": [
       {
         "name": "sbom_type",
@@ -12261,7 +12261,7 @@
       "name": "ngtcp2",
       "version": "1.22.1",
       "purl": "pkg:nix/ngtcp2@1.22.1",
-      "cpe": "cpe:2.3:a:ngtcp2:ngtcp2:1.22.1:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:nghttp2:ngtcp2:1.22.1:*:*:*:*:*:*:*",
       "description": "Implementation of the QUIC protocol (RFC9000)",
       "licenses": [
         {

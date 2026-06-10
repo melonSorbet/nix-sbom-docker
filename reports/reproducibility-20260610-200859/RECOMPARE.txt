@@ -1,0 +1,13 @@
+REPRODUCIBILITY RE-COMPARE
+==========================
+Report : reports/reproducibility-20260610-200859
+Run    : 2026-06-10T20:35:06+02:00
+
+Strict  = diff after normalizing serialNumber + timestamp + sort
+Content = diff ignoring input-addressed identifiers (.drv path),
+          components keyed by PURL > output_path > name@version
+
+app          | rt-strict | rt-content | bt-strict | bt-content | pb-strict | pb-content
+-------------|----------|----------|----------|----------|----------|----------
+python-app   | FAIL     | PASS     | PASS     | PASS     | PASS     | PASS    
+

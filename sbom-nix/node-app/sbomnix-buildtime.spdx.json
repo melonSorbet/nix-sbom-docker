@@ -3,9 +3,9 @@
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
   "name": "SPDXRef-nix-store-21r62m50gzl66rfkm988g04s090aslly-node-app-env.drv",
-  "documentNamespace": "sbomnix://c3941a08-98f6-4da9-bd00-7206d728ba67",
+  "documentNamespace": "sbomnix://2d36bd05-addb-45d1-8a61-df6c849a2855",
   "creationInfo": {
-    "created": "2026-05-20T12:52:37.524702+02:00",
+    "created": "2026-05-27T22:11:47.870071+02:00",
     "creators": [
       "Tool: sbomnix-1.7.4"
     ]
@@ -11606,7 +11606,7 @@
         {
           "referenceCategory": "SECURITY",
           "referenceType": "cpe23Type",
-          "referenceLocator": "cpe:2.3:a:ngtcp2:ngtcp2:1.22.1:*:*:*:*:*:*:*"
+          "referenceLocator": "cpe:2.3:a:nghttp2:ngtcp2:1.22.1:*:*:*:*:*:*:*"
         },
         {
           "referenceCategory": "PACKAGE-MANAGER",

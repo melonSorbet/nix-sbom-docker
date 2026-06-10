@@ -3,9 +3,9 @@
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
   "name": "SPDXRef-nix-store-nymai4gn6sisdl9xjhkq764a9vsyfj70-python-app-env.drv",
-  "documentNamespace": "sbomnix://97dceaba-0144-4e57-82ec-e2efc4f2ca19",
+  "documentNamespace": "sbomnix://b2203d03-f2b5-4a1d-a6e0-88725296befe",
   "creationInfo": {
-    "created": "2026-05-20T12:51:07.491933+02:00",
+    "created": "2026-05-27T22:42:35.886292+02:00",
     "creators": [
       "Tool: sbomnix-1.7.4"
     ]

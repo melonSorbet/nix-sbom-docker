@@ -1,0 +1,1449 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "/nix/store/32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+      "cpe": "cpe:2.3:a:python3-3.13.12:python3-3.13.12::*:*:*:*:*:*:*",
+      "description": "High-level dynamically-typed programming language",
+      "licenses": [
+        {
+          "license": {
+            "id": "Python-2.0"
+          }
+        }
+      ],
+      "name": "python3-3.13.12",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/sdfysgb89zdysrknjavcr0crs4qxpk8r-python3-3.13.12"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.python.org"
+        }
+      ],
+      "purl": "pkg:nix/python3-3.13.12",
+      "type": "library",
+      "version": ""
+    },
+    {
+      "bom-ref": "/nix/store/75i7zy2v9ci2ya4j68cwv7mms8rawphx-python3.13-certifi-2025.07.14.drv",
+      "cpe": "cpe:2.3:a:python3.13-certifi:python3.13-certifi:2025.07.14:*:*:*:*:*:*:*",
+      "description": "Python package for providing Mozilla's CA Bundle",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "name": "python3.13-certifi",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/yzxpzs2bqlzrzkzg1r446sh52l5hx7ym-python3.13-certifi-2025.07.14"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/75i7zy2v9ci2ya4j68cwv7mms8rawphx-python3.13-certifi-2025.07.14.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://github.com/certifi/python-certifi"
+        }
+      ],
+      "purl": "pkg:nix/python3.13-certifi@2025.07.14",
+      "type": "library",
+      "version": "2025.07.14"
+    },
+    {
+      "bom-ref": "/nix/store/a64c09hgbhz1k3knddjgc43z6hpb0gsx-libidn2-2.3.8.drv",
+      "cpe": "cpe:2.3:a:gnu:libidn2:2.3.8:*:*:*:*:*:*:*",
+      "description": "Free software implementation of IDNA2008 and TR46",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "name": "libidn2",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/qywg7bxskvihq62ms2g51fkzkrdnyfkh-libidn2-2.3.8"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/a64c09hgbhz1k3knddjgc43z6hpb0gsx-libidn2-2.3.8.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.gnu.org/software/libidn/#libidn2"
+        }
+      ],
+      "purl": "pkg:nix/libidn2@2.3.8",
+      "type": "library",
+      "version": "2.3.8"
+    },
+    {
+      "bom-ref": "/nix/store/agnfh81jpn2w5nyk9129pqzgg5xcjlwf-bzip2-1.0.8.drv",
+      "cpe": "cpe:2.3:a:bzip2:bzip2:1.0.8:*:*:*:*:*:*:*",
+      "description": "High-quality data compression program",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-4-Clause"
+          }
+        }
+      ],
+      "name": "bzip2",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/c9gi6iyyki9z92gycdb13wbpjqxwsxis-bzip2-1.0.8"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/agnfh81jpn2w5nyk9129pqzgg5xcjlwf-bzip2-1.0.8.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.sourceware.org/bzip2"
+        }
+      ],
+      "purl": "pkg:nix/bzip2@1.0.8",
+      "type": "library",
+      "version": "1.0.8"
+    },
+    {
+      "bom-ref": "/nix/store/ca2kl191hxdjlfink0mx5is6z7v9dl6m-python3.13-markupsafe-3.0.3.drv",
+      "cpe": "cpe:2.3:a:python3.13-markupsafe:python3.13-markupsafe:3.0.3:*:*:*:*:*:*:*",
+      "description": "Implements a XML/HTML/XHTML Markup safe string",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "name": "python3.13-markupsafe",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/djf2xicpbw95c9v5q1igdgb5b7gd2w0v-python3.13-markupsafe-3.0.3"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/ca2kl191hxdjlfink0mx5is6z7v9dl6m-python3.13-markupsafe-3.0.3.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://palletsprojects.com/p/markupsafe/"
+        }
+      ],
+      "purl": "pkg:nix/python3.13-markupsafe@3.0.3",
+      "type": "library",
+      "version": "3.0.3"
+    },
+    {
+      "bom-ref": "/nix/store/cn9283yp4imlbl93cap0g2k3lj65ijn6-tzdata-2026a.drv",
+      "cpe": "cpe:2.3:a:tzdata:tzdata:2026a:*:*:*:*:*:*:*",
+      "description": "Database of current and historical time zones",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "name": "tzdata",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/hvcpzbmw8hq5fzb424g9z6kkzhyx2iaw-tzdata-2026a"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/cn9283yp4imlbl93cap0g2k3lj65ijn6-tzdata-2026a.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "http://www.iana.org/time-zones"
+        }
+      ],
+      "purl": "pkg:nix/tzdata@2026a",
+      "type": "library",
+      "version": "2026a"
+    },
+    {
+      "bom-ref": "/nix/store/cs48wnvvj6wx9lawrgf8m286njym1avs-python3.13-click-8.2.1.drv",
+      "cpe": "cpe:2.3:a:python3.13-click:python3.13-click:8.2.1:*:*:*:*:*:*:*",
+      "description": "Create beautiful command line interfaces in Python",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "name": "python3.13-click",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/hp26syvbv8ji968mf6qg9d0iw7r4qvvb-python3.13-click-8.2.1"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/cs48wnvvj6wx9lawrgf8m286njym1avs-python3.13-click-8.2.1.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://click.palletsprojects.com/"
+        }
+      ],
+      "purl": "pkg:nix/python3.13-click@8.2.1",
+      "type": "library",
+      "version": "8.2.1"
+    },
+    {
+      "bom-ref": "/nix/store/dc1jwf230xmlayv0xf71s1qdi47j306j-util-linux-minimal-2.41.4.drv",
+      "cpe": "cpe:2.3:a:util-linux-minimal:util-linux-minimal:2.41.4:*:*:*:*:*:*:*",
+      "description": "Set of system utilities for Linux",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-4-Clause-UC"
+          }
+        }
+      ],
+      "name": "util-linux-minimal",
+      "pedigree": {
+        "patches": [
+          {
+            "resolves": [
+              {
+                "id": "CVE-2026-3184",
+                "references": [
+                  "file:///nix/store/1qbnm716m96aih10msn9f7dfzm1myza7-CVE-2026-3184.patch"
+                ],
+                "type": "security"
+              }
+            ],
+            "type": "unofficial"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/c1g2l2ki0rgf30amwkd2jag992qkv8qm-util-linux-minimal-2.41.4-lib"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/dc1jwf230xmlayv0xf71s1qdi47j306j-util-linux-minimal-2.41.4.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.kernel.org/pub/linux/utils/util-linux/"
+        }
+      ],
+      "purl": "pkg:nix/util-linux-minimal@2.41.4",
+      "type": "library",
+      "version": "2.41.4"
+    },
+    {
+      "bom-ref": "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+      "cpe": "cpe:2.3:a:glibc:glibc:2.40-224:*:*:*:*:*:*:*",
+      "description": "GNU C Library",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.0-or-later"
+          }
+        }
+      ],
+      "name": "glibc",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/7nbi22pcc92y2fqbkyp7h3srvvklmckb-glibc-2.40-224"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.gnu.org/software/libc/"
+        }
+      ],
+      "purl": "pkg:nix/glibc@2.40-224",
+      "type": "library",
+      "version": "2.40-224"
+    },
+    {
+      "bom-ref": "/nix/store/gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+      "cpe": "cpe:2.3:a:python3-3.13.12-env:python3-3.13.12-env::*:*:*:*:*:*:*",
+      "description": "High-level dynamically-typed programming language",
+      "licenses": [
+        {
+          "license": {
+            "id": "Python-2.0"
+          }
+        }
+      ],
+      "name": "python3-3.13.12-env",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/cs98xrwk2s8nabc8sfxckgcxvvppda8y-python3-3.13.12-env"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.python.org"
+        }
+      ],
+      "purl": "pkg:nix/python3-3.13.12-env",
+      "type": "library",
+      "version": ""
+    },
+    {
+      "bom-ref": "/nix/store/gribg4vmbzfmddqvcnfwya0x25dpvimz-mailcap-2.1.54.drv",
+      "cpe": "cpe:2.3:a:mailcap:mailcap:2.1.54:*:*:*:*:*:*:*",
+      "description": "Helper application and MIME type associations for file types",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "name": "mailcap",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/7g2rwy25wdndxy3zr7q8d49bxyjbzcw0-mailcap-2.1.54"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/gribg4vmbzfmddqvcnfwya0x25dpvimz-mailcap-2.1.54.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://pagure.io/mailcap"
+        }
+      ],
+      "purl": "pkg:nix/mailcap@2.1.54",
+      "type": "library",
+      "version": "2.1.54"
+    },
+    {
+      "bom-ref": "/nix/store/gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv",
+      "cpe": "cpe:2.3:a:gnu:bash:5.3p3:*:*:*:*:*:*:*",
+      "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "name": "bash",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/3hgg7pr65imdrifqqh3flg3arvkc2r22-bash-5.3p3"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.gnu.org/software/bash/"
+        }
+      ],
+      "purl": "pkg:nix/bash@5.3p3",
+      "type": "library",
+      "version": "5.3p3"
+    },
+    {
+      "bom-ref": "/nix/store/h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv",
+      "cpe": "cpe:2.3:a:zlib:zlib:1.3.2:*:*:*:*:*:*:*",
+      "description": "Lossless data-compression library",
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        }
+      ],
+      "name": "zlib",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/lf793zr9yfa0dpph8jlxbbdnvnahvq8b-zlib-1.3.2"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://zlib.net"
+        }
+      ],
+      "purl": "pkg:nix/zlib@1.3.2",
+      "type": "library",
+      "version": "1.3.2"
+    },
+    {
+      "bom-ref": "/nix/store/hm1jxmgwkfsvj61hzzd826kq5y0n7aic-python3.13-flask-3.1.2.drv",
+      "cpe": "cpe:2.3:a:python3.13-flask:python3.13-flask:3.1.2:*:*:*:*:*:*:*",
+      "description": "Python micro framework for building web applications",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "name": "python3.13-flask",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/ixzn8h14gfl2863p6wlwazgmplfzy6cf-python3.13-flask-3.1.2"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/hm1jxmgwkfsvj61hzzd826kq5y0n7aic-python3.13-flask-3.1.2.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://flask.palletsprojects.com/"
+        }
+      ],
+      "purl": "pkg:nix/python3.13-flask@3.1.2",
+      "type": "library",
+      "version": "3.1.2"
+    },
+    {
+      "bom-ref": "/nix/store/j2f65jx6p1x4v262807i85djhfxig7mp-python3.13-charset-normalizer-3.4.3.drv",
+      "cpe": "cpe:2.3:a:python3.13-charset-normalizer:python3.13-charset-normalizer:3.4.3:*:*:*:*:*:*:*",
+      "description": "Python module for encoding and language detection",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "name": "python3.13-charset-normalizer",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/hs2npnkf2zq5s9j71d9d27658wajs32y-python3.13-charset-normalizer-3.4.3"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/j2f65jx6p1x4v262807i85djhfxig7mp-python3.13-charset-normalizer-3.4.3.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://charset-normalizer.readthedocs.io/"
+        }
+      ],
+      "purl": "pkg:nix/python3.13-charset-normalizer@3.4.3",
+      "type": "library",
+      "version": "3.4.3"
+    },
+    {
+      "bom-ref": "/nix/store/j800s5phgfn9jg7iyiys89qjcr5hxriz-libunistring-1.4.1.drv",
+      "cpe": "cpe:2.3:a:libunistring:libunistring:1.4.1:*:*:*:*:*:*:*",
+      "description": "Unicode string library",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "name": "libunistring",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/hjwppd89fk8781xl4r35xqlddwqi5f66-libunistring-1.4.1"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/j800s5phgfn9jg7iyiys89qjcr5hxriz-libunistring-1.4.1.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.gnu.org/software/libunistring/"
+        }
+      ],
+      "purl": "pkg:nix/libunistring@1.4.1",
+      "type": "library",
+      "version": "1.4.1"
+    },
+    {
+      "bom-ref": "/nix/store/jgks0zix859wpzvaq5mnck1rz5pqrchh-python3.13-idna-3.11.drv",
+      "cpe": "cpe:2.3:a:python3.13-idna:python3.13-idna:3.11:*:*:*:*:*:*:*",
+      "description": "Internationalized Domain Names in Applications (IDNA)",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "name": "python3.13-idna",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/yq173az5zm0y4y3x6d9k9xdgnpxr2bsj-python3.13-idna-3.11"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/jgks0zix859wpzvaq5mnck1rz5pqrchh-python3.13-idna-3.11.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://github.com/kjd/idna/"
+        }
+      ],
+      "purl": "pkg:nix/python3.13-idna@3.11",
+      "type": "library",
+      "version": "3.11"
+    },
+    {
+      "bom-ref": "/nix/store/k3yfb24asq152abydbqg56mdzq9q4bqy-xgcc-14.3.0.drv",
+      "cpe": "cpe:2.3:a:xgcc:xgcc:14.3.0:*:*:*:*:*:*:*",
+      "name": "xgcc",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/fv5lgysa3hmf3l3dkkpwvndcg6xwhy8m-xgcc-14.3.0-libgcc"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/k3yfb24asq152abydbqg56mdzq9q4bqy-xgcc-14.3.0.drv"
+        }
+      ],
+      "purl": "pkg:nix/xgcc@14.3.0",
+      "type": "library",
+      "version": "14.3.0"
+    },
+    {
+      "bom-ref": "/nix/store/kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv",
+      "cpe": "cpe:2.3:a:gcc:gcc:14.3.0:*:*:*:*:*:*:*",
+      "description": "GNU Compiler Collection, version 14.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "name": "gcc",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/phpq5h7cp6y1w84aysy29548irqy5dd9-gcc-14.3.0-libgcc"
+        },
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/ybp235ps7m4yd85v0pgvqkhd4xmxf6jq-gcc-14.3.0-lib"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://gcc.gnu.org/"
+        }
+      ],
+      "purl": "pkg:nix/gcc@14.3.0",
+      "type": "library",
+      "version": "14.3.0"
+    },
+    {
+      "bom-ref": "/nix/store/lcgg6bipbvb56vrylwmvw7xjd7is0ks4-python3.13-jinja2-3.1.6.drv",
+      "cpe": "cpe:2.3:a:python3.13-jinja2:python3.13-jinja2:3.1.6:*:*:*:*:*:*:*",
+      "description": "Very fast and expressive template engine",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "name": "python3.13-jinja2",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/klja9pw7mzpygg232rmj1h4ci73n4kkb-python3.13-jinja2-3.1.6"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/lcgg6bipbvb56vrylwmvw7xjd7is0ks4-python3.13-jinja2-3.1.6.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://jinja.palletsprojects.com"
+        }
+      ],
+      "purl": "pkg:nix/python3.13-jinja2@3.1.6",
+      "type": "library",
+      "version": "3.1.6"
+    },
+    {
+      "bom-ref": "/nix/store/m80k45px4lm5rqxjic8bpy7m53587q7f-mpdecimal-4.0.1.drv",
+      "cpe": "cpe:2.3:a:mpdecimal:mpdecimal:4.0.1:*:*:*:*:*:*:*",
+      "description": "Library for arbitrary precision decimal floating point arithmetic",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "name": "mpdecimal",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/mc5phzxsq1a7l15il4zam170y75k8y4v-mpdecimal-4.0.1"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/m80k45px4lm5rqxjic8bpy7m53587q7f-mpdecimal-4.0.1.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.bytereef.org/mpdecimal/index.html"
+        }
+      ],
+      "purl": "pkg:nix/mpdecimal@4.0.1",
+      "type": "library",
+      "version": "4.0.1"
+    },
+    {
+      "bom-ref": "/nix/store/ngq6hc58bqk9k8ynmqldwblp5scmr7ic-python3.13-itsdangerous-2.2.0.drv",
+      "cpe": "cpe:2.3:a:python3.13-itsdangerous:python3.13-itsdangerous:2.2.0:*:*:*:*:*:*:*",
+      "description": "Safely pass data to untrusted environments and back",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "name": "python3.13-itsdangerous",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/xvzvp2c7f6ncfq82aa2sfkhj0rsxqfk3-python3.13-itsdangerous-2.2.0"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/ngq6hc58bqk9k8ynmqldwblp5scmr7ic-python3.13-itsdangerous-2.2.0.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://itsdangerous.palletsprojects.com"
+        }
+      ],
+      "purl": "pkg:nix/python3.13-itsdangerous@2.2.0",
+      "type": "library",
+      "version": "2.2.0"
+    },
+    {
+      "bom-ref": "/nix/store/niamsjj65lai3yirdlljjpfqx9n06bxb-python-app-src.drv",
+      "cpe": "cpe:2.3:a:python-app-src:python-app-src::*:*:*:*:*:*:*",
+      "name": "python-app-src",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/pmmlr3izp1is6vk4kdc8byb78hdr2lam-python-app-src"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/niamsjj65lai3yirdlljjpfqx9n06bxb-python-app-src.drv"
+        }
+      ],
+      "purl": "pkg:nix/python-app-src",
+      "type": "library",
+      "version": ""
+    },
+    {
+      "bom-ref": "/nix/store/ps6x2yw8b0iirrpd9xgj4fkxgaawq7jn-python3.13-blinker-1.9.0.drv",
+      "cpe": "cpe:2.3:a:python3.13-blinker:python3.13-blinker:1.9.0:*:*:*:*:*:*:*",
+      "description": "Fast Python in-process signal/event dispatching system",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "name": "python3.13-blinker",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/zwb97crmx8wr7ni34qrsr5a399706g3k-python3.13-blinker-1.9.0"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/ps6x2yw8b0iirrpd9xgj4fkxgaawq7jn-python3.13-blinker-1.9.0.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://github.com/pallets-eco/blinker/"
+        }
+      ],
+      "purl": "pkg:nix/python3.13-blinker@1.9.0",
+      "type": "library",
+      "version": "1.9.0"
+    },
+    {
+      "bom-ref": "/nix/store/q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv",
+      "cpe": "cpe:2.3:a:openssl:openssl:3.6.2:*:*:*:*:*:*:*",
+      "description": "Cryptographic library that implements the SSL and TLS protocols",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "name": "openssl",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/by19gg2pqp2b1gqphdf6bwk2g3hgak79-openssl-3.6.2"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.openssl.org/"
+        }
+      ],
+      "purl": "pkg:nix/openssl@3.6.2",
+      "type": "library",
+      "version": "3.6.2"
+    },
+    {
+      "bom-ref": "/nix/store/qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv",
+      "cpe": "cpe:2.3:a:gnu:readline:8.3p1:*:*:*:*:*:*:*",
+      "description": "Library for interactive line editing",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "name": "readline",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/brb97wgi4lld4km09dy5cnklkjr48fdq-readline-8.3p1"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://savannah.gnu.org/projects/readline/"
+        }
+      ],
+      "purl": "pkg:nix/readline@8.3p1",
+      "type": "library",
+      "version": "8.3p1"
+    },
+    {
+      "bom-ref": "/nix/store/svm7f14aws0d4js8d9lg3i3pa5qcvdys-python3.13-werkzeug-3.1.4.drv",
+      "cpe": "cpe:2.3:a:python3.13-werkzeug:python3.13-werkzeug:3.1.4:*:*:*:*:*:*:*",
+      "description": "Comprehensive WSGI web application library",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "name": "python3.13-werkzeug",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/cgjgd3l3xpk26f3ziwl6j63p9ax2wq9v-python3.13-werkzeug-3.1.4"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/svm7f14aws0d4js8d9lg3i3pa5qcvdys-python3.13-werkzeug-3.1.4.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://palletsprojects.com/p/werkzeug/"
+        }
+      ],
+      "purl": "pkg:nix/python3.13-werkzeug@3.1.4",
+      "type": "library",
+      "version": "3.1.4"
+    },
+    {
+      "bom-ref": "/nix/store/vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv",
+      "cpe": "cpe:2.3:a:sqlite:sqlite:3.50.4:*:*:*:*:*:*:*",
+      "description": "Self-contained, serverless, zero-configuration, transactional SQL database engine",
+      "licenses": [
+        {
+          "license": {
+            "name": "publicDomain"
+          }
+        }
+      ],
+      "name": "sqlite",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/p0070ky52z5qq0s7815dc93v1xh9bnd4-sqlite-3.50.4"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.sqlite.org/"
+        }
+      ],
+      "purl": "pkg:nix/sqlite@3.50.4",
+      "type": "library",
+      "version": "3.50.4"
+    },
+    {
+      "bom-ref": "/nix/store/vm069zxdl9bf8zrpgrjnzgk684ygwpfw-libffi-3.5.2.drv",
+      "cpe": "cpe:2.3:a:libffi_project:libffi:3.5.2:*:*:*:*:*:*:*",
+      "description": "Foreign function call interface library",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "name": "libffi",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/n28qgdj8c1q41kf7n4y1jxa6ckp85m3c-libffi-3.5.2"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/vm069zxdl9bf8zrpgrjnzgk684ygwpfw-libffi-3.5.2.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "http://sourceware.org/libffi/"
+        }
+      ],
+      "purl": "pkg:nix/libffi@3.5.2",
+      "type": "library",
+      "version": "3.5.2"
+    },
+    {
+      "bom-ref": "/nix/store/w4a8lqn4k0d7p9171c39abv71npnmmhv-gdbm-1.26.drv",
+      "cpe": "cpe:2.3:a:gdbm:gdbm:1.26:*:*:*:*:*:*:*",
+      "description": "GNU dbm key/value database library",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-or-later"
+          }
+        }
+      ],
+      "name": "gdbm",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/wxy7sj4vxcbvkjsplbjsy40mzjm8d4xc-gdbm-1.26-lib"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/w4a8lqn4k0d7p9171c39abv71npnmmhv-gdbm-1.26.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.gnu.org/software/gdbm/"
+        }
+      ],
+      "purl": "pkg:nix/gdbm@1.26",
+      "type": "library",
+      "version": "1.26"
+    },
+    {
+      "bom-ref": "/nix/store/wqna2fjldsrizvqbfmgfyvb7ab6chskw-nss-cacert-3.123.drv",
+      "cpe": "cpe:2.3:a:nss-cacert:nss-cacert:3.123:*:*:*:*:*:*:*",
+      "description": "Bundle of X.509 certificates of public Certificate Authorities (CA)",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        }
+      ],
+      "name": "nss-cacert",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/lvak3rg4jmjvy3rxw0w68ylnd0s2r685-nss-cacert-3.123"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/wqna2fjldsrizvqbfmgfyvb7ab6chskw-nss-cacert-3.123.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://firefox-source-docs.mozilla.org/security/nss/runbooks/rootstore.html#root-store-consumers"
+        }
+      ],
+      "purl": "pkg:nix/nss-cacert@3.123",
+      "type": "library",
+      "version": "3.123"
+    },
+    {
+      "bom-ref": "/nix/store/x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv",
+      "cpe": "cpe:2.3:a:ncurses:ncurses:6.5:*:*:*:*:*:*:*",
+      "description": "Free software emulation of curses in SVR4 and more",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "name": "ncurses",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/ffyzkisqs4vc4mg28bwwlyqjf8i9ph6b-ncurses-6.5"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://www.gnu.org/software/ncurses/"
+        }
+      ],
+      "purl": "pkg:nix/ncurses@6.5",
+      "type": "library",
+      "version": "6.5"
+    },
+    {
+      "bom-ref": "/nix/store/x7lvv35rrhnycg6bkgc7vhdkiac4v1qf-xz-5.8.3.drv",
+      "cpe": "cpe:2.3:a:xz:xz:5.8.3:*:*:*:*:*:*:*",
+      "description": "General-purpose data compression software, successor of LZMA",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-or-later"
+          }
+        }
+      ],
+      "name": "xz",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/pgkgcrhsdiz08rinb4crlcykd5fj15l2-xz-5.8.3"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/x7lvv35rrhnycg6bkgc7vhdkiac4v1qf-xz-5.8.3.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://tukaani.org/xz/"
+        }
+      ],
+      "purl": "pkg:nix/xz@5.8.3",
+      "type": "library",
+      "version": "5.8.3"
+    },
+    {
+      "bom-ref": "/nix/store/xywl90cdcrynfqg9g64hcv1hwv7p3r0v-python3.13-urllib3-2.5.0.drv",
+      "cpe": "cpe:2.3:a:python3.13-urllib3:python3.13-urllib3:2.5.0:*:*:*:*:*:*:*",
+      "description": "Powerful, user-friendly HTTP client for Python",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "name": "python3.13-urllib3",
+      "pedigree": {
+        "patches": [
+          {
+            "resolves": [
+              {
+                "id": "CVE-2025-66471",
+                "references": [
+                  "file:///nix/store/f03r3qb0xpn2x1wwx7nfwpi7hwv4cfkc-CVE-2025-66471.patch"
+                ],
+                "type": "security"
+              }
+            ],
+            "type": "unofficial"
+          },
+          {
+            "resolves": [
+              {
+                "id": "CVE-2025-66418",
+                "references": [
+                  "file:///nix/store/a75h902kcryiqd0566yzy5mdnj80a7al-CVE-2025-66418.patch"
+                ],
+                "type": "security"
+              }
+            ],
+            "type": "unofficial"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/9j9a37lnpxhpb19yb5m92szm369w531b-python3.13-urllib3-2.5.0"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/xywl90cdcrynfqg9g64hcv1hwv7p3r0v-python3.13-urllib3-2.5.0.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://github.com/urllib3/urllib3"
+        }
+      ],
+      "purl": "pkg:nix/python3.13-urllib3@2.5.0",
+      "type": "library",
+      "version": "2.5.0"
+    },
+    {
+      "bom-ref": "/nix/store/yxkq15i1s38ss5qab2rgxh70g5vdjlnf-python3.13-requests-2.33.1.drv",
+      "cpe": "cpe:2.3:a:python3.13-requests:python3.13-requests:2.33.1:*:*:*:*:*:*:*",
+      "description": "HTTP library for Python",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "name": "python3.13-requests",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/rhpkvb02ign5i85wb4kbff7mpv3cvfs9-python3.13-requests-2.33.1"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/yxkq15i1s38ss5qab2rgxh70g5vdjlnf-python3.13-requests-2.33.1.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "http://docs.python-requests.org/"
+        }
+      ],
+      "purl": "pkg:nix/python3.13-requests@2.33.1",
+      "type": "library",
+      "version": "2.33.1"
+    },
+    {
+      "bom-ref": "/nix/store/zlflf51k9b1r0vx3kkyivn3y9lm5w963-expat-2.7.5.drv",
+      "cpe": "cpe:2.3:a:expat:expat:2.7.5:*:*:*:*:*:*:*",
+      "description": "Stream-oriented XML parser library written in C",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "name": "expat",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/dn34cing3fxa7j6pi29xrfxp2nrb0i3y-expat-2.7.5"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/zlflf51k9b1r0vx3kkyivn3y9lm5w963-expat-2.7.5.drv"
+        },
+        {
+          "name": "homepage",
+          "value": "https://libexpat.github.io/"
+        }
+      ],
+      "purl": "pkg:nix/expat@2.7.5",
+      "type": "library",
+      "version": "2.7.5"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "/nix/store/agnfh81jpn2w5nyk9129pqzgg5xcjlwf-bzip2-1.0.8.drv",
+        "/nix/store/cn9283yp4imlbl93cap0g2k3lj65ijn6-tzdata-2026a.drv",
+        "/nix/store/dc1jwf230xmlayv0xf71s1qdi47j306j-util-linux-minimal-2.41.4.drv",
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+        "/nix/store/gribg4vmbzfmddqvcnfwya0x25dpvimz-mailcap-2.1.54.drv",
+        "/nix/store/gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv",
+        "/nix/store/h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv",
+        "/nix/store/kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv",
+        "/nix/store/m80k45px4lm5rqxjic8bpy7m53587q7f-mpdecimal-4.0.1.drv",
+        "/nix/store/q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv",
+        "/nix/store/qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv",
+        "/nix/store/vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv",
+        "/nix/store/vm069zxdl9bf8zrpgrjnzgk684ygwpfw-libffi-3.5.2.drv",
+        "/nix/store/w4a8lqn4k0d7p9171c39abv71npnmmhv-gdbm-1.26.drv",
+        "/nix/store/x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv",
+        "/nix/store/x7lvv35rrhnycg6bkgc7vhdkiac4v1qf-xz-5.8.3.drv",
+        "/nix/store/zlflf51k9b1r0vx3kkyivn3y9lm5w963-expat-2.7.5.drv"
+      ],
+      "ref": "/nix/store/32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+        "/nix/store/wqna2fjldsrizvqbfmgfyvb7ab6chskw-nss-cacert-3.123.drv"
+      ],
+      "ref": "/nix/store/75i7zy2v9ci2ya4j68cwv7mms8rawphx-python3.13-certifi-2025.07.14.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/j800s5phgfn9jg7iyiys89qjcr5hxriz-libunistring-1.4.1.drv"
+      ],
+      "ref": "/nix/store/a64c09hgbhz1k3knddjgc43z6hpb0gsx-libidn2-2.3.8.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ],
+      "ref": "/nix/store/agnfh81jpn2w5nyk9129pqzgg5xcjlwf-bzip2-1.0.8.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ],
+      "ref": "/nix/store/ca2kl191hxdjlfink0mx5is6z7v9dl6m-python3.13-markupsafe-3.0.3.drv"
+    },
+    {
+      "dependsOn": [],
+      "ref": "/nix/store/cn9283yp4imlbl93cap0g2k3lj65ijn6-tzdata-2026a.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+      ],
+      "ref": "/nix/store/cs48wnvvj6wx9lawrgf8m286njym1avs-python3.13-click-8.2.1.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ],
+      "ref": "/nix/store/dc1jwf230xmlayv0xf71s1qdi47j306j-util-linux-minimal-2.41.4.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/a64c09hgbhz1k3knddjgc43z6hpb0gsx-libidn2-2.3.8.drv",
+        "/nix/store/k3yfb24asq152abydbqg56mdzq9q4bqy-xgcc-14.3.0.drv"
+      ],
+      "ref": "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+        "/nix/store/75i7zy2v9ci2ya4j68cwv7mms8rawphx-python3.13-certifi-2025.07.14.drv",
+        "/nix/store/ca2kl191hxdjlfink0mx5is6z7v9dl6m-python3.13-markupsafe-3.0.3.drv",
+        "/nix/store/cs48wnvvj6wx9lawrgf8m286njym1avs-python3.13-click-8.2.1.drv",
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+        "/nix/store/hm1jxmgwkfsvj61hzzd826kq5y0n7aic-python3.13-flask-3.1.2.drv",
+        "/nix/store/j2f65jx6p1x4v262807i85djhfxig7mp-python3.13-charset-normalizer-3.4.3.drv",
+        "/nix/store/jgks0zix859wpzvaq5mnck1rz5pqrchh-python3.13-idna-3.11.drv",
+        "/nix/store/kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv",
+        "/nix/store/lcgg6bipbvb56vrylwmvw7xjd7is0ks4-python3.13-jinja2-3.1.6.drv",
+        "/nix/store/ngq6hc58bqk9k8ynmqldwblp5scmr7ic-python3.13-itsdangerous-2.2.0.drv",
+        "/nix/store/ps6x2yw8b0iirrpd9xgj4fkxgaawq7jn-python3.13-blinker-1.9.0.drv",
+        "/nix/store/svm7f14aws0d4js8d9lg3i3pa5qcvdys-python3.13-werkzeug-3.1.4.drv",
+        "/nix/store/xywl90cdcrynfqg9g64hcv1hwv7p3r0v-python3.13-urllib3-2.5.0.drv",
+        "/nix/store/yxkq15i1s38ss5qab2rgxh70g5vdjlnf-python3.13-requests-2.33.1.drv"
+      ],
+      "ref": "/nix/store/gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv"
+    },
+    {
+      "dependsOn": [],
+      "ref": "/nix/store/gribg4vmbzfmddqvcnfwya0x25dpvimz-mailcap-2.1.54.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ],
+      "ref": "/nix/store/gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ],
+      "ref": "/nix/store/h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+        "/nix/store/ca2kl191hxdjlfink0mx5is6z7v9dl6m-python3.13-markupsafe-3.0.3.drv",
+        "/nix/store/cs48wnvvj6wx9lawrgf8m286njym1avs-python3.13-click-8.2.1.drv",
+        "/nix/store/gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv",
+        "/nix/store/lcgg6bipbvb56vrylwmvw7xjd7is0ks4-python3.13-jinja2-3.1.6.drv",
+        "/nix/store/ngq6hc58bqk9k8ynmqldwblp5scmr7ic-python3.13-itsdangerous-2.2.0.drv",
+        "/nix/store/ps6x2yw8b0iirrpd9xgj4fkxgaawq7jn-python3.13-blinker-1.9.0.drv",
+        "/nix/store/svm7f14aws0d4js8d9lg3i3pa5qcvdys-python3.13-werkzeug-3.1.4.drv"
+      ],
+      "ref": "/nix/store/hm1jxmgwkfsvj61hzzd826kq5y0n7aic-python3.13-flask-3.1.2.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+        "/nix/store/gz423mnfsshyz0c3vrc633m8vwb5lxmm-bash-5.3p3.drv"
+      ],
+      "ref": "/nix/store/j2f65jx6p1x4v262807i85djhfxig7mp-python3.13-charset-normalizer-3.4.3.drv"
+    },
+    {
+      "dependsOn": [],
+      "ref": "/nix/store/j800s5phgfn9jg7iyiys89qjcr5hxriz-libunistring-1.4.1.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+      ],
+      "ref": "/nix/store/jgks0zix859wpzvaq5mnck1rz5pqrchh-python3.13-idna-3.11.drv"
+    },
+    {
+      "dependsOn": [],
+      "ref": "/nix/store/k3yfb24asq152abydbqg56mdzq9q4bqy-xgcc-14.3.0.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ],
+      "ref": "/nix/store/kgbxz4gb826agk27ixc19763nj5wwmm2-gcc-14.3.0.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+        "/nix/store/ca2kl191hxdjlfink0mx5is6z7v9dl6m-python3.13-markupsafe-3.0.3.drv"
+      ],
+      "ref": "/nix/store/lcgg6bipbvb56vrylwmvw7xjd7is0ks4-python3.13-jinja2-3.1.6.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ],
+      "ref": "/nix/store/m80k45px4lm5rqxjic8bpy7m53587q7f-mpdecimal-4.0.1.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+      ],
+      "ref": "/nix/store/ngq6hc58bqk9k8ynmqldwblp5scmr7ic-python3.13-itsdangerous-2.2.0.drv"
+    },
+    {
+      "dependsOn": [],
+      "ref": "/nix/store/niamsjj65lai3yirdlljjpfqx9n06bxb-python-app-src.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/gqg3s9mszrnzkq2qpda2sqbnxln0z6xr-python3-3.13.12-env.drv",
+        "/nix/store/niamsjj65lai3yirdlljjpfqx9n06bxb-python-app-src.drv"
+      ],
+      "ref": "/nix/store/nymai4gn6sisdl9xjhkq764a9vsyfj70-python-app-env.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+      ],
+      "ref": "/nix/store/ps6x2yw8b0iirrpd9xgj4fkxgaawq7jn-python3.13-blinker-1.9.0.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ],
+      "ref": "/nix/store/q37afai02ianmgl9vcgk7qybb7krlkp3-openssl-3.6.2.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+        "/nix/store/x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv"
+      ],
+      "ref": "/nix/store/qf9msmd1a4vpcqh48ddpkhgxf5258zcl-readline-8.3p1.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+        "/nix/store/ca2kl191hxdjlfink0mx5is6z7v9dl6m-python3.13-markupsafe-3.0.3.drv"
+      ],
+      "ref": "/nix/store/svm7f14aws0d4js8d9lg3i3pa5qcvdys-python3.13-werkzeug-3.1.4.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv",
+        "/nix/store/h8hg2j62442an223yqr1dqsk1l5vmjv1-zlib-1.3.2.drv"
+      ],
+      "ref": "/nix/store/vlram0d6f0byn5bpzf3iaai70mz7d7vr-sqlite-3.50.4.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ],
+      "ref": "/nix/store/vm069zxdl9bf8zrpgrjnzgk684ygwpfw-libffi-3.5.2.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ],
+      "ref": "/nix/store/w4a8lqn4k0d7p9171c39abv71npnmmhv-gdbm-1.26.drv"
+    },
+    {
+      "dependsOn": [],
+      "ref": "/nix/store/wqna2fjldsrizvqbfmgfyvb7ab6chskw-nss-cacert-3.123.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ],
+      "ref": "/nix/store/x2rhvljsyhk653af0rsxfag78p4zvn0a-ncurses-6.5.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ],
+      "ref": "/nix/store/x7lvv35rrhnycg6bkgc7vhdkiac4v1qf-xz-5.8.3.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv"
+      ],
+      "ref": "/nix/store/xywl90cdcrynfqg9g64hcv1hwv7p3r0v-python3.13-urllib3-2.5.0.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/32kp3kg9pilpgxzdpw857v0hp29g0n4i-python3-3.13.12.drv",
+        "/nix/store/75i7zy2v9ci2ya4j68cwv7mms8rawphx-python3.13-certifi-2025.07.14.drv",
+        "/nix/store/j2f65jx6p1x4v262807i85djhfxig7mp-python3.13-charset-normalizer-3.4.3.drv",
+        "/nix/store/jgks0zix859wpzvaq5mnck1rz5pqrchh-python3.13-idna-3.11.drv",
+        "/nix/store/xywl90cdcrynfqg9g64hcv1hwv7p3r0v-python3.13-urllib3-2.5.0.drv"
+      ],
+      "ref": "/nix/store/yxkq15i1s38ss5qab2rgxh70g5vdjlnf-python3.13-requests-2.33.1.drv"
+    },
+    {
+      "dependsOn": [
+        "/nix/store/fynmmhgd2qyxbxxs0cii34zj37mv3xcm-glibc-2.40-224.drv"
+      ],
+      "ref": "/nix/store/zlflf51k9b1r0vx3kkyivn3y9lm5w963-expat-2.7.5.drv"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "/nix/store/nymai4gn6sisdl9xjhkq764a9vsyfj70-python-app-env.drv",
+      "cpe": "cpe:2.3:a:python-app-env:python-app-env::*:*:*:*:*:*:*",
+      "name": "python-app-env",
+      "properties": [
+        {
+          "name": "nix:output_path",
+          "value": "/nix/store/r7gc5r3096cyrg7wjix4d4pqc3ng9378-python-app-env"
+        },
+        {
+          "name": "nix:drv_path",
+          "value": "/nix/store/nymai4gn6sisdl9xjhkq764a9vsyfj70-python-app-env.drv"
+        }
+      ],
+      "purl": "pkg:nix/python-app-env",
+      "type": "library",
+      "version": ""
+    },
+    "properties": [
+      {
+        "name": "sbom_type",
+        "value": "runtime_only"
+      }
+    ],
+    "timestamp": "<X>",
+    "tools": [
+      {
+        "name": "sbomnix",
+        "vendor": "TII",
+        "version": "1.7.4"
+      }
+    ]
+  },
+  "serialNumber": "<X>",
+  "specVersion": "1.4",
+  "version": 1
+}

@@ -1,0 +1,182 @@
+warning: Git tree '/home/user/Work/nix-sbom' is dirty
+[1;37mINFO    [0m Evaluating '.#node-app-env'[0m
+[1;37mINFO    [0m Try force-realising flakeref '.#node-app-env'[0m
+[1;37mINFO    [0m Loading runtime dependencies referenced by '/nix/store/wjcz4sgx061ifdf5idfl2l1s0h788l90-node-app-env'[0m
+[1;37mINFO    [0m Using random UUIDv4[0m
+[1;37mINFO    [0m Wrote: /home/user/Work/nix-sbom/reports/reproducibility-20260610-201839/node-app-sbomnix-runtime-1.cdx.json[0m
+[1;37mINFO    [0m Wrote: sbom.spdx.json[0m
+[1;37mINFO    [0m Wrote: sbom.csv[0m
+[1;37mINFO    [0m Evaluating '.#node-app-env'[0m
+[1;37mINFO    [0m Loading buildtime dependencies referenced by '/nix/store/wjcz4sgx061ifdf5idfl2l1s0h788l90-node-app-env'[0m
+[1;37mINFO    [0m Using random UUIDv4[0m
+[1;37mINFO    [0m Wrote: /home/user/Work/nix-sbom/reports/reproducibility-20260610-201839/node-app-sbomnix-buildtime-1.cdx.json[0m
+[1;37mINFO    [0m Wrote: sbom.spdx.json[0m
+[1;37mINFO    [0m Wrote: sbom.csv[0m
+→ runtime closure from 
+/home/user/Work/nix-sbom/reports/reproducibility-20260610-201839/node-app-sbomni
+x-runtime-1.cdx.json
+→ buildtime closure from 
+/home/user/Work/nix-sbom/reports/reproducibility-20260610-201839/node-app-sbomni
+x-buildtime-1.cdx.json
+→ gathering build identity (nix version, flake lock)
+✓ PBOM written to 
+/home/user/Work/nix-sbom/reports/reproducibility-20260610-201839/node-app-pbom-1
+.cdx.json
+  components: 879 total · 20 required (also in runtime) · 859 excluded 
+(build-only — the PBOM-only set)
+finding garbage collector roots...
+removing stale link from '/nix/var/nix/gcroots/auto/skg12ddc1f3wpfn2056cg4zh6p1kxy77' to '/home/user/Work/nix-sbom/result-node-app-bom'
+removing stale link from '/nix/var/nix/gcroots/auto/2izhpr8jd3q2ri6rgnysg6bn442z6gkx' to '/home/user/Work/nix-sbom/result-node-app-image'
+deleting garbage...
+deleting '/nix/store/q1yv39c8nq4nmx5ycqw13y2i3fhhx3r2-node-app-nix.tar.gz'
+deleting '/nix/store/mssg7s0n6i3vq9229w57kjz3fy0jmlc3-node-app-env.cdx.json'
+deleting '/nix/store/wjcz4sgx061ifdf5idfl2l1s0h788l90-node-app-env'
+deleting '/nix/store/z7a25l5haabjk7r5d0xpjjzfyf69210l-node-app-1.0.0'
+deleting '/nix/store/6kmmpz52hxlb02v7qi89ams04a3bxydy-node-app-env.cdx.json.drv'
+deleting '/nix/store/b197qz4bsbgh1ylyc5m2fcnlzgq4yn3v-node-app-env-buildtime-dependencies.json.drv'
+deleting '/nix/store/iyw5j732615fgck49v48r1jg988wy403-node-app-env-unformatted-buildtime-dependencies.json.drv'
+deleting '/nix/store/4pzfz8j2896kr7wd02vycm10n00q36zx-node-app-env-runtime-dependencies.txt.drv'
+deleting '/nix/store/vp19dl4m0fh7d6xhqdyi5dzrs6y53p5i-closure-info.drv'
+deleting '/nix/store/3dsl4zwvvz3jm95ciccxaql6vxa2vmsa-node-app-nix.tar.gz.drv'
+deleting '/nix/store/l1lg1i2pq24dzi4sbj7g2rsflpinms32-stream-node-app-nix.drv'
+deleting '/nix/store/8zix9lfvrzdwlrymhi6rfyzjfdl1zv1g-node-app-nix-conf.json.drv'
+deleting '/nix/store/p1akmyq2f7ic2r23vgfp2fzsrvnys02m-layers.json.drv'
+deleting '/nix/store/3r203a910j23rvjl2i1zfycy4jnrlmpq-excludePaths.drv'
+deleting '/nix/store/mqpag2h6bfvsrma1d4wcdmf210883yxx-node-app-nix-customisation-layer.drv'
+deleting '/nix/store/cq4hnbhzfk3c46inyp826s0w6afrygmp-node-app-nix-base.json.drv'
+deleting '/nix/store/21r62m50gzl66rfkm988g04s090aslly-node-app-env.drv'
+deleting '/nix/store/b9r82x24sc758rs29p79kh1khj6kmcdg-node-app-1.0.0.drv'
+deleting '/nix/store/7w2jrsw5svckahwvgh78y18shcj1j69i-node-app-1.0.0-npm-deps.drv'
+deleting '/nix/store/783bisnrvs178qjn81f9ij8mbpqph29r-node-app'
+deleting '/nix/store/y2r3if6rk5kh1fkbq4c1h4ijbacz3f9h-source'
+deleting '/nix/store/7w2x8yric1i39jc4prsj2s1xrabm71yx-source'
+deleting '/nix/store/5xk1n7bw6y25szrwkjbdpppxrdchjjrq-make-shell-wrapper-hook'
+deleting '/nix/store/14ral1rxxihyhbffa7rygv9ymd35babc-make-binary-wrapper-hook'
+deleting '/nix/store/cni8h48r0c96xjlndndabai63hz9dmzr-die-hook'
+deleting '/nix/store/pvir9l70j66xb9prq9cvq313r2n2na58-stdenv-linux'
+deleting '/nix/store/wgvcw7lnibrxfn1w7hp42w6j8psd16ys-excludePaths'
+deleting '/nix/store/jhdwbdwc4n11da1xhc7m2p7xzv5as1z2-python-app-nix-base.json'
+deleting '/nix/store/ycwgcilfb3s07fizblr2ncsqwbsvp6iq-pigz-2.8'
+deleting '/nix/store/x1ij1vlnmj187mq6jy5641b0xjnz9fqf-lndir-1.0.5'
+deleting '/nix/store/w3qfxb1a77a1cczx5l1nm94ds61slm1j-fakeroot-1.37.1.2'
+deleting '/nix/store/8bbgqryb9dy9lznm5gczgks967lqsbnq-getopt-1.1.6'
+deleting '/nix/store/5ywirmsz5crf3rscasszs5p1m464fi5h-pythoncheck.sh'
+deleting '/nix/store/4jcb0kj3qbmnr582vzfgwajlybhlhmxn-pythoncheck.sh'
+deleting '/nix/store/40cidy20axz4d5djq5fqcsys04kx9bdx-python3.13-flake8-7.3.0'
+deleting '/nix/store/yrqy2y83898mbdrp35jq9xh4vx5rf3zn-python3.13-pycodestyle-2.14.0'
+deleting '/nix/store/rfvy6xzc8iixlixvppdynp9dcl59qh5n-python3.13-mccabe-0.7.0'
+deleting '/nix/store/k0q0wirzk1z3zvmfrajp5wbbh6dk5vrb-dash-0.5.13.2'
+deleting '/nix/store/lszka4rzzmlmw1sp1nlr9qxx436ixhyz-libedit-20251016-3.1'
+deleting '/nix/store/1cln2sdkp4vn8wbvwl5sjm8jpbcf95wj-python3.13-pyflakes-3.4.0'
+deleting '/nix/store/47ra6zycqvs08j0n7jisc45bdl37xc8x-stream-python-app-nix'
+deleting '/nix/store/1si0d91z6qaz9j9893fpysfpgwa6wvpg-python-app-nix-conf.json'
+deleting '/nix/store/a9s6yxi0p63rd8dp07q7590wdi6nmqlm-python-app-nix-customisation-layer'
+deleting '/nix/store/g70k08qramjffikh5vk1qh0insl9lc8z-layers.json'
+deleting '/nix/store/sc346vim7d0lbclqw2iwn81pbj46qgl1-stream'
+deleting '/nix/store/mdf139rgsw9jad8mp9msjkm0dw85z26w-stream'
+deleting '/nix/store/xj3zj6r08w8rrd43kfy6zqysh3863acl-nix-shell.drv'
+deleting '/nix/store/rbqgxs3zr7zr5j9fnjxj918cis2mb3jz-bash-interactive-5.3p3-man'
+deleting unused links...
+note: currently hard linking saves 0.00 MiB
+48 store paths deleted, 277.17 MiB freed
+warning: Git tree '/home/user/Work/nix-sbom' is dirty
+copying path '/nix/store/7w2x8yric1i39jc4prsj2s1xrabm71yx-source' from 'https://cache.nixos.org'...
+these 13 derivations will be built:
+  /nix/store/7w2jrsw5svckahwvgh78y18shcj1j69i-node-app-1.0.0-npm-deps.drv
+  /nix/store/b9r82x24sc758rs29p79kh1khj6kmcdg-node-app-1.0.0.drv
+  /nix/store/cq4hnbhzfk3c46inyp826s0w6afrygmp-node-app-nix-base.json.drv
+  /nix/store/mqpag2h6bfvsrma1d4wcdmf210883yxx-node-app-nix-customisation-layer.drv
+  /nix/store/3r203a910j23rvjl2i1zfycy4jnrlmpq-excludePaths.drv
+  /nix/store/p1akmyq2f7ic2r23vgfp2fzsrvnys02m-layers.json.drv
+  /nix/store/8zix9lfvrzdwlrymhi6rfyzjfdl1zv1g-node-app-nix-conf.json.drv
+  /nix/store/wn4kpz78nnavjg3zhjxd0y09cvyysq9f-pythoncheck.sh.drv
+  /nix/store/d0gsgz30aa0vxmk5hmnhfpw2ic82wrr9-pythoncheck.sh.drv
+  /nix/store/81vmk7h2v3xzdhi4x2s3a8cv2dbd772p-stream.drv
+  /nix/store/cvgx6kkjrxs7wsw5bp5g66aby6wr3cwp-stream.drv
+  /nix/store/l1lg1i2pq24dzi4sbj7g2rsflpinms32-stream-node-app-nix.drv
+  /nix/store/3dsl4zwvvz3jm95ciccxaql6vxa2vmsa-node-app-nix.tar.gz.drv
+these 23 paths will be fetched (67.54 MiB download, 607.47 MiB unpacked):
+  /nix/store/k0q0wirzk1z3zvmfrajp5wbbh6dk5vrb-dash-0.5.13.2
+  /nix/store/cni8h48r0c96xjlndndabai63hz9dmzr-die-hook
+  /nix/store/w3qfxb1a77a1cczx5l1nm94ds61slm1j-fakeroot-1.37.1.2
+  /nix/store/8bbgqryb9dy9lznm5gczgks967lqsbnq-getopt-1.1.6
+  /nix/store/fipmgvpfp3l9mian1gahdhv66nrjxdbd-install-shell-files
+  /nix/store/lszka4rzzmlmw1sp1nlr9qxx436ixhyz-libedit-20251016-3.1
+  /nix/store/x1ij1vlnmj187mq6jy5641b0xjnz9fqf-lndir-1.0.5
+  /nix/store/14ral1rxxihyhbffa7rygv9ymd35babc-make-binary-wrapper-hook
+  /nix/store/5xk1n7bw6y25szrwkjbdpppxrdchjjrq-make-shell-wrapper-hook
+  /nix/store/wndn9z5nq19zs0j787hhg4jv3k1slh8m-nodejs-22.22.2-dev
+  /nix/store/b0052ydvs98nngnm42311vair73sh3ni-nodejs-22.22.2-source
+  /nix/store/jwc4gj1nqph7x77qpgxw4hgp70hml8ry-nodejs-install-executables
+  /nix/store/i1j841jf1n0chq3i85cwvc8lanc1imx3-nodejs-install-manuals
+  /nix/store/1zlk6c7xy0d449sxdyds4mgryir3d4aa-npm-build-hook
+  /nix/store/94spack1bf0wnqr9nvl6za8gss4f37b0-npm-config-hook
+  /nix/store/s9j2krqkpkcx2l1frbvl68s5x5jck8mm-npm-install-hook
+  /nix/store/ycwgcilfb3s07fizblr2ncsqwbsvp6iq-pigz-2.8
+  /nix/store/1gs31xp763vn4j3czp0l02n9g93cdqly-prefetch-npm-deps-0.1.0
+  /nix/store/40cidy20axz4d5djq5fqcsys04kx9bdx-python3.13-flake8-7.3.0
+  /nix/store/rfvy6xzc8iixlixvppdynp9dcl59qh5n-python3.13-mccabe-0.7.0
+  /nix/store/yrqy2y83898mbdrp35jq9xh4vx5rf3zn-python3.13-pycodestyle-2.14.0
+  /nix/store/1cln2sdkp4vn8wbvwl5sjm8jpbcf95wj-python3.13-pyflakes-3.4.0
+  /nix/store/pvir9l70j66xb9prq9cvq313r2n2na58-stdenv-linux
+copying path '/nix/store/ycwgcilfb3s07fizblr2ncsqwbsvp6iq-pigz-2.8' from 'https://cache.nixos.org'...
+copying path '/nix/store/pvir9l70j66xb9prq9cvq313r2n2na58-stdenv-linux' from 'https://cache.nixos.org'...
+copying path '/nix/store/cni8h48r0c96xjlndndabai63hz9dmzr-die-hook' from 'https://cache.nixos.org'...
+copying path '/nix/store/8bbgqryb9dy9lznm5gczgks967lqsbnq-getopt-1.1.6' from 'https://cache.nixos.org'...
+copying path '/nix/store/x1ij1vlnmj187mq6jy5641b0xjnz9fqf-lndir-1.0.5' from 'https://cache.nixos.org'...
+copying path '/nix/store/1zlk6c7xy0d449sxdyds4mgryir3d4aa-npm-build-hook' from 'https://cache.nixos.org'...
+copying path '/nix/store/fipmgvpfp3l9mian1gahdhv66nrjxdbd-install-shell-files' from 'https://cache.nixos.org'...
+copying path '/nix/store/b0052ydvs98nngnm42311vair73sh3ni-nodejs-22.22.2-source' from 'https://cache.nixos.org'...
+copying path '/nix/store/lszka4rzzmlmw1sp1nlr9qxx436ixhyz-libedit-20251016-3.1' from 'https://cache.nixos.org'...
+copying path '/nix/store/wndn9z5nq19zs0j787hhg4jv3k1slh8m-nodejs-22.22.2-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/rfvy6xzc8iixlixvppdynp9dcl59qh5n-python3.13-mccabe-0.7.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/yrqy2y83898mbdrp35jq9xh4vx5rf3zn-python3.13-pycodestyle-2.14.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/1cln2sdkp4vn8wbvwl5sjm8jpbcf95wj-python3.13-pyflakes-3.4.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/1gs31xp763vn4j3czp0l02n9g93cdqly-prefetch-npm-deps-0.1.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/14ral1rxxihyhbffa7rygv9ymd35babc-make-binary-wrapper-hook' from 'https://cache.nixos.org'...
+copying path '/nix/store/5xk1n7bw6y25szrwkjbdpppxrdchjjrq-make-shell-wrapper-hook' from 'https://cache.nixos.org'...
+copying path '/nix/store/i1j841jf1n0chq3i85cwvc8lanc1imx3-nodejs-install-manuals' from 'https://cache.nixos.org'...
+copying path '/nix/store/w3qfxb1a77a1cczx5l1nm94ds61slm1j-fakeroot-1.37.1.2' from 'https://cache.nixos.org'...
+copying path '/nix/store/jwc4gj1nqph7x77qpgxw4hgp70hml8ry-nodejs-install-executables' from 'https://cache.nixos.org'...
+copying path '/nix/store/40cidy20axz4d5djq5fqcsys04kx9bdx-python3.13-flake8-7.3.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/k0q0wirzk1z3zvmfrajp5wbbh6dk5vrb-dash-0.5.13.2' from 'https://cache.nixos.org'...
+copying path '/nix/store/s9j2krqkpkcx2l1frbvl68s5x5jck8mm-npm-install-hook' from 'https://cache.nixos.org'...
+building '/nix/store/wn4kpz78nnavjg3zhjxd0y09cvyysq9f-pythoncheck.sh.drv'...
+building '/nix/store/d0gsgz30aa0vxmk5hmnhfpw2ic82wrr9-pythoncheck.sh.drv'...
+building '/nix/store/81vmk7h2v3xzdhi4x2s3a8cv2dbd772p-stream.drv'...
+building '/nix/store/cvgx6kkjrxs7wsw5bp5g66aby6wr3cwp-stream.drv'...
+building '/nix/store/7w2jrsw5svckahwvgh78y18shcj1j69i-node-app-1.0.0-npm-deps.drv'...
+copying path '/nix/store/94spack1bf0wnqr9nvl6za8gss4f37b0-npm-config-hook' from 'https://cache.nixos.org'...
+building '/nix/store/b9r82x24sc758rs29p79kh1khj6kmcdg-node-app-1.0.0.drv'...
+building '/nix/store/cq4hnbhzfk3c46inyp826s0w6afrygmp-node-app-nix-base.json.drv'...
+building '/nix/store/mqpag2h6bfvsrma1d4wcdmf210883yxx-node-app-nix-customisation-layer.drv'...
+building '/nix/store/3r203a910j23rvjl2i1zfycy4jnrlmpq-excludePaths.drv'...
+building '/nix/store/p1akmyq2f7ic2r23vgfp2fzsrvnys02m-layers.json.drv'...
+building '/nix/store/8zix9lfvrzdwlrymhi6rfyzjfdl1zv1g-node-app-nix-conf.json.drv'...
+building '/nix/store/l1lg1i2pq24dzi4sbj7g2rsflpinms32-stream-node-app-nix.drv'...
+building '/nix/store/3dsl4zwvvz3jm95ciccxaql6vxa2vmsa-node-app-nix.tar.gz.drv'...
+[1;37mINFO    [0m Evaluating '.#node-app-env'[0m
+[1;37mINFO    [0m Try force-realising flakeref '.#node-app-env'[0m
+[1;37mINFO    [0m Loading runtime dependencies referenced by '/nix/store/wjcz4sgx061ifdf5idfl2l1s0h788l90-node-app-env'[0m
+[1;37mINFO    [0m Using random UUIDv4[0m
+[1;37mINFO    [0m Wrote: /home/user/Work/nix-sbom/reports/reproducibility-20260610-201839/node-app-sbomnix-runtime-2.cdx.json[0m
+[1;37mINFO    [0m Wrote: sbom.spdx.json[0m
+[1;37mINFO    [0m Wrote: sbom.csv[0m
+[1;37mINFO    [0m Evaluating '.#node-app-env'[0m
+[1;37mINFO    [0m Loading buildtime dependencies referenced by '/nix/store/wjcz4sgx061ifdf5idfl2l1s0h788l90-node-app-env'[0m
+[1;37mINFO    [0m Using random UUIDv4[0m
+[1;37mINFO    [0m Wrote: /home/user/Work/nix-sbom/reports/reproducibility-20260610-201839/node-app-sbomnix-buildtime-2.cdx.json[0m
+[1;37mINFO    [0m Wrote: sbom.spdx.json[0m
+[1;37mINFO    [0m Wrote: sbom.csv[0m
+→ runtime closure from 
+/home/user/Work/nix-sbom/reports/reproducibility-20260610-201839/node-app-sbomni
+x-runtime-2.cdx.json
+→ buildtime closure from 
+/home/user/Work/nix-sbom/reports/reproducibility-20260610-201839/node-app-sbomni
+x-buildtime-2.cdx.json
+→ gathering build identity (nix version, flake lock)
+✓ PBOM written to 
+/home/user/Work/nix-sbom/reports/reproducibility-20260610-201839/node-app-pbom-2
+.cdx.json
+  components: 879 total · 28 required (also in runtime) · 851 excluded 
+(build-only — the PBOM-only set)
